@@ -20,7 +20,7 @@ hay ta có cấu xạ được xác định bởi
 g&\mapsto h_W\left ( f \right )\left ( g \right )=g\circ f
 \end{align*}
 </blockquote>
-Điều này dẫn đến $h_W\left ( f \right )=\operatorname{Hom}_{\mathbf{Set}}\left ( h_W\left ( Y \right ),h_W\left ( X \right ) \right )$, hay từ đây ta thu được $h_W$ là hàm tử phản biến từ phạm trù $\mathcal{C}$ vào phạm trù tập hợp $\textbf{Set}$.<br>
+Điều này dẫn đến $$h_W\left ( f \right )=\operatorname{Hom}_{\mathbf{Set}}\left ( h_W\left ( Y \right ),h_W\left ( X \right ) \right )$$, hay từ đây ta thu được $h_W$ là hàm tử phản biến từ phạm trù $\mathcal{C}$ vào phạm trù tập hợp $\textbf{Set}$.<br>
 Một câu hỏi cơ bản được đặt ra như sau: khi một hàm tử phản biến $F:\mathcal{C}\rightarrow \mathbf{Set}$ được xác định, liệu có tồn tại một vật $W\in\operatorname{Ob}(\mathcal{C})$ thỏa mãn $h_W$ đẳng cấu hàm tử với $F$ hay không? Nghĩa là, với mọi vật $X\in\operatorname{Ob}(\mathcal{C})$, có tồn tại vật $W\in\operatorname{Ob}(\mathcal{C})$ thỏa mãn
 $$\varphi_X:F\left ( X \right )\overset{\sim }{\longrightarrow}h_W\left ( X \right ),$$
 là một phép đẳng cấu giữa các tập hợp và thỏa mãn với mỗi cấu xạ $f\in\operatorname{Hom}\left ( X_1,X_2 \right )$ thì sơ đồ sau
