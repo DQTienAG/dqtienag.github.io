@@ -36,7 +36,6 @@ F(X) \arrow[r, "\varphi_{X}"']                                  & h_W(X)
 dẫn đến $$\varphi_X\left ( F\left ( h \right )\left ( \psi \right ) \right )=h$$. Lại từ việc $\varphi_X$ là một phép đẳng cấu theo nghĩa tập hợp, $$\varphi_X\left ( F\left ( h \right )\left ( \psi \right ) \right )=h$$ , nghĩa là
 $$F\left ( X \right )=\left \{ F\left ( h \right )\left ( \psi \right )\mid h\in h_W\left ( W \right ) \right \}.$$
 Do đó, nếu $F\simeq h_W$ đẳng cấu hàm tử thì $F$ được biểu diễn bởi $\left ( W,\psi \right )$, nghĩa là $F$ biểu diễn được. Từ đây, ta có định nghĩa cụ thể của hàm tử biểu diễn được, phát biểu như sau
-<!-- https://q.uiver.app/?q=WzAsMyxbMCwxLCJcXGJ1bGxldCJdLFsxLDAsIlxcYnVsbGV0Il0sWzAsMCwiXFxidWxsZXQiXSxbMCwxXSxbMiwxXSxbMiwwXV0= -->
 <iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsMyxbMCwxLCJcXGJ1bGxldCJdLFsxLDAsIlxcYnVsbGV0Il0sWzAsMCwiXFxidWxsZXQiXSxbMCwxXSxbMiwxXSxbMiwwXV0=&embed" width="304" height="304" style="border-radius: 8px; border: none;"></iframe>
 
 
