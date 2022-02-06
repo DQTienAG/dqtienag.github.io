@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hàm tử biểu diễn được và tích thớ"
+title: "(06.02.2022) Hàm tử biểu diễn được và tích thớ"
 author: "Doãn Quang Tiến"
 categories: 
 tag: [algebraic geometry, representable functor, fibre product]
