@@ -20,8 +20,7 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'Algebraic Geometry'
-under
+title:		           'Algebraic Geometry'*
 description:	       'Wenn du es nicht versuchst, wirst du nie wissen, ob du es kannst'
 author:              'Doãn Quang Tiến'
 
