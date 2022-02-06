@@ -24,10 +24,12 @@ g&\mapsto h_W\left ( f \right )\left ( g \right )=g\circ f
 Một câu hỏi cơ bản được đặt ra như sau: khi một hàm tử phản biến $F:\mathcal{C}\rightarrow \mathbf{Set}$ được xác định, liệu có tồn tại một vật $W\in\operatorname{Ob}(\mathcal{C})$ thỏa mãn $h_W$ đẳng cấu hàm tử với $F$ hay không? Nghĩa là, với mọi vật $X\in\operatorname{Ob}(\mathcal{C})$, có tồn tại vật $W\in\operatorname{Ob}(\mathcal{C})$ thỏa mãn
 $$\varphi_X:F\left ( X \right )\overset{\sim }{\longrightarrow}h_W\left ( X \right ),$$
 là một phép đẳng cấu giữa các tập hợp và thỏa mãn với mỗi cấu xạ $f\in\operatorname{Hom}\left ( X_1,X_2 \right )$ thì sơ đồ sau
-\begin{tikzcd}
+<center>
+    $$\begin{tikzcd}
 F(X_2) \arrow[d, "F\left ( f \right )"'] \arrow[r, "\varphi_{X_2}"] & h_W(X_2) \arrow[d, "h_W\left ( f \right )"] \\
 F(X_1) \arrow[r, "\varphi_{X_1}"']                                  & h_W(X_1)                                   
-\end{tikzcd}
+\end{tikzcd}$$
+ </center>
 có giao hoán hay không? Nếu vật $W$ tồn tại, thì đẳng cấu $\varphi_W:F\left ( W \right )\overset{\sim }{\longrightarrow}h_W\left ( W \right )$ xác định duy nhất một phần tử $\psi\in F\left ( W \right )$ thỏa mãn $\varphi_W\left ( \psi \right )=\operatorname{id}_W\in h_W\left ( W \right )$. Ta sẽ chứng minh $\left ( W,\psi \right )$ xác định $F$ khi $F$ và $h_W$ đẳng cấu theo nghĩa hàm tử. Với vật $X\in\operatorname{Ob}(\mathcal{C})$ bất kì, ta chọn phần tử $h\in h_W\left ( X \right )=\operatorname{Hom}_{\mathcal{C}}\left ( X,W \right )$, khi đó thì ta thu được $F\left ( h \right )\left ( \psi \right )\in F\left ( X \right )$. Từ sơ đồ giao hoán
 \begin{tikzcd}
 F(W) \arrow[d, "F\left ( h \right )"'] \arrow[r, "\varphi_{W}"] & h_W(W) \arrow[d, "h_W\left ( h \right )"] \\
