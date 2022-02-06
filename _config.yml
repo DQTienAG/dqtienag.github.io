@@ -21,6 +21,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Algebraic Geometry'
+>
 description:	       'Viết nhiều để tốt hơn'
 author:              'Doãn Quang Tiến'
 
