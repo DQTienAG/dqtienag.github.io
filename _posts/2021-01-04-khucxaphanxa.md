@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Định luật phản xạ và khúc xạ qua một góc nhìn mới"
+title: "Định lý Riemann Roch và ứng dụng"
 author: "Doãn Quang Tiến"
 categories: 
 tag: [algebraic curve, algebraic geometry]
