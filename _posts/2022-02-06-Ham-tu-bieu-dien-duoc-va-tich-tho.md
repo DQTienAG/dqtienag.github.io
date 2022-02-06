@@ -14,7 +14,7 @@ Trước tiên, ta sẽ đi xem xét hàm tử cảm sinh từ một vật trong
 <center>
     $h_W\left ( X \right ):=\operatorname{Hom}_{\mathcal{C}}\left ( X,W \right ),\quad X\in\operatorname{Ob}\left ( \mathcal{C} \right ).$
  </center>
-Khi đó, với mọi cấu xạ $$f\in\operatorname{Hom}_{\mathcal{C}}\left ( X,Y \right )$$ và $$g\in\operatorname{Hom}_{\mathcal{C}}\left ( Y,W \right )=h_W\left ( Y \right )$$, ta định nghĩa
+Khi đó, với mọi cấu xạ $f\in\operatorname{Hom}_{\mathcal{C}}\left ( X,Y \right )$ và $g\in\operatorname{Hom}_{\mathcal{C}}\left ( Y,W \right )=h_W\left ( Y \right )$, ta định nghĩa
 <center>
     $h_W\left ( f \right )\left ( g \right )=g\circ f\quad\text{thì ta thu được}\quad g\circ f\in \operatorname{Hom}_{\mathcal{C}}\left ( X,W \right )=h_W\left ( X \right ),$
 </center>
