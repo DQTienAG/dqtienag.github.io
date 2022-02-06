@@ -21,7 +21,7 @@ g&\mapsto h_W\left ( f \right )\left ( g \right )=g\circ f
 \end{align*}
 </blockquote>
 
-
+Điều này dẫn đến \(h_W\left ( f \right )=\operatorname{Hom}_{\mathbf{Set}}\left ( h_W\left ( Y \right ),h_W\left ( X \right ) \right )\), hay từ đây ta thu được \(h_W\) là hàm tử phản biến từ phạm trù \(\mathcal{C}\) vào phạm trù tập hợp \(\textbf{Set}\).
 
 
 
