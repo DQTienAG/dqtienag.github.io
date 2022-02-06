@@ -20,9 +20,8 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-<p>
 title:		           'Algebraic Geometry'*<br>
-description:	       'Wenn du es nicht versuchst, wirst du nie wissen, ob du es kannst'</p>
+description:	       'Wenn du es nicht versuchst, wirst du nie wissen, ob du es kannst'
 author:              'Doãn Quang Tiến'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
