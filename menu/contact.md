@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Liên hệ
+title: Tài liệu tham khảo
 permalink: /contact
 ---
 
