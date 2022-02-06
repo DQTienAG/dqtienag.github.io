@@ -5,7 +5,7 @@ permalink: /about
 ---
 
 <p align="center">
-	<img src="assets/img/Grothendieck.jpg" alt="Hello Algebraic Geometry" width="90%">
+	<img src="assets/img/Grothendieck.jpg" alt="Hello Algebraic Geometry" width="60%">
 </p>
 
 [**Algebraic Geometry**](https://dqtienag.github.io/) là trang blog của mình, nơi mình viết về hình học đại số, lý thuyết số.
