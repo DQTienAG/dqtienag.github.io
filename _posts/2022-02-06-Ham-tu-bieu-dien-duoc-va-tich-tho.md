@@ -44,6 +44,47 @@ Do đó, nếu $F\simeq h_W$ đẳng cấu hàm tử thì $F$ được biểu di
 	\arrow[from=1-1, to=2-1]
 \end{tikzcd}\]
 
+\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
+%uncomment if require: \path (0,500); %set diagram left start at 0, and has height of 500
+
+%Straight Lines [id:da9113020489637684] 
+\draw    (225.4,270.41) -- (510.13,270.41) ;
+%Shape: Ellipse [id:dp3392702706151973] 
+\draw  [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (363.41,270.02) .. controls (363.41,266.82) and (366.01,264.23) .. (369.21,264.23) .. controls (372.4,264.23) and (375,266.82) .. (375,270.02) .. controls (375,273.22) and (372.4,275.81) .. (369.21,275.81) .. controls (366.01,275.81) and (363.41,273.22) .. (363.41,270.02) -- cycle ;
+%Shape: Ellipse [id:dp8286278282885116] 
+\draw  [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (222.1,163.46) .. controls (222.1,160.26) and (224.69,157.67) .. (227.89,157.67) .. controls (231.09,157.67) and (233.68,160.26) .. (233.68,163.46) .. controls (233.68,166.66) and (231.09,169.25) .. (227.89,169.25) .. controls (224.69,169.25) and (222.1,166.66) .. (222.1,163.46) -- cycle ;
+%Shape: Ellipse [id:dp04922743192991841] 
+\draw  [fill={rgb, 255:red, 0; green, 0; blue, 0 }  ,fill opacity=1 ] (458.4,129.48) .. controls (458.4,126.28) and (460.99,123.69) .. (464.19,123.69) .. controls (467.39,123.69) and (469.98,126.28) .. (469.98,129.48) .. controls (469.98,132.68) and (467.39,135.27) .. (464.19,135.27) .. controls (460.99,135.27) and (458.4,132.68) .. (458.4,129.48) -- cycle ;
+%Straight Lines [id:da30985383230321517] 
+\draw    (227.89,163.46) -- (369.21,270.02) ;
+%Straight Lines [id:da961743527018762] 
+\draw    (464.19,129.48) -- (369.21,270.02) ;
+%Straight Lines [id:da7326945722218143] 
+\draw  [dash pattern={on 4.5pt off 4.5pt}]  (369.21,169.38) -- (369.21,270.02) ;
+%Straight Lines [id:da4481609532364128] 
+\draw    (369.21,270.02) -- (283.65,205.4) ;
+\draw [shift={(282.05,204.2)}, rotate = 37.06] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-4.9) .. controls (6.95,-2.3) and (3.31,-0.67) .. (0,0) .. controls (3.31,0.67) and (6.95,2.3) .. (10.93,4.9)   ;
+%Straight Lines [id:da15300882968619978] 
+\draw    (369.21,270.02) -- (420.73,193.6) ;
+\draw [shift={(421.84,191.94)}, rotate = 123.99] [color={rgb, 255:red, 0; green, 0; blue, 0 }  ][line width=0.75]    (10.93,-4.9) .. controls (6.95,-2.3) and (3.31,-0.67) .. (0,0) .. controls (3.31,0.67) and (6.95,2.3) .. (10.93,4.9)   ;
+
+% Text Node
+\draw (353.5,283.6) node [anchor=north west][inner sep=0.75pt]  [font=\Large]  {$M$};
+% Text Node
+\draw (216.62,126.52) node [anchor=north west][inner sep=0.75pt]  [font=\Large]  {$A$};
+% Text Node
+\draw (456.14,92.46) node [anchor=north west][inner sep=0.75pt]  [font=\Large]  {$B$};
+% Text Node
+\draw (347.37,220.76) node [anchor=north west][inner sep=0.75pt]  [font=\Large]  {$i$};
+% Text Node
+\draw (377.22,215.49) node [anchor=north west][inner sep=0.75pt]  [font=\Large]  {$r$};
+% Text Node
+\draw (280.62,168.52) node [anchor=north west][inner sep=0.75pt]  [font=\Large]  {$\vec T_{1}$};
+% Text Node
+\draw (395.72,153.88) node [anchor=north west][inner sep=0.75pt]  [font=\Large]  {$\vec T_{2}$};
+
+
+\end{tikzpicture}
 
 
 
