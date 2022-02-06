@@ -14,9 +14,9 @@ menu:
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
 social:
-- {icon: 'github',     link: 'https://github.com/relatable52'}
-- {icon: 'facebook',   link: 'https://www.facebook.com/profile.php?id=100027499011118'}
-- {icon: 'envelope',   link: 'mailto:duongchinh29062003@gmail.com'}
+- {icon: 'github',     link: 'https://github.com/dqtienag'}
+- {icon: 'facebook',   link: 'https://www.facebook.com/profile.php?id=100044529849435'}
+- {icon: 'envelope',   link: 'mailto:doanquangtienag@gmail.com'}
 # - {icon: 'rss-square', link: '/rss-feed.xml'}
 
 # Customize site text
