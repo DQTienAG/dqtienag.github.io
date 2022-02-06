@@ -9,7 +9,8 @@ tag: [algebraic geometry, representable functor, fibre product]
 Hôm nay, mình sẽ giới thiệu về việc xây dựng tích trực tiếp và tích thớ bằng ngôn ngữ phạm trù, sử dụng hàm tử biểu diễn được. Mục tiêu của bài viết là hướng đến việc chỉ ra sự tồn tại của tích thớ trong phạm trù lược đồ $\textbf{Sch}$.<br>
 **1. Hàm tử biểu diễn được**<br>
 Trước tiên, ta sẽ đi xem xét hàm tử cảm sinh từ một vật trong phạm trù.
-> **Định nghĩa** (Hàm tử cảm sinh bởi một vật trong phạm trù) Xét một vật $W$ trong phạm trù $\mathcal{C}$, ta định nghĩa
+<blockquote>
+**Định nghĩa** (Hàm tử cảm sinh bởi một vật trong phạm trù) Xét một vật $W$ trong phạm trù $\mathcal{C}$, ta định nghĩa
 <center>
     $h_W\left ( X \right ):=\operatorname{Hom}_{\mathcal{C}}\left ( X,W \right ),\quad X\in\operatorname{Ob}\left ( \mathcal{C} \right ).$
  </center>
@@ -24,7 +25,7 @@ hay ta có cấu xạ được xác định bởi
 g&\mapsto h_W\left ( f \right )\left ( g \right )=g\circ f
 \end{align*}
 </center>
-
+</blockquote>
 
 
 
