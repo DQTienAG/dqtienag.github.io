@@ -20,7 +20,9 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'Algebraic Geometry'<space><space>
+title:		           'Algebraic Geometry'
+
+
 description:	       'There is no clear-cut distinction between example and theory – Michael Atiyah'
 author:              'Doãn Quang Tiến'
 
