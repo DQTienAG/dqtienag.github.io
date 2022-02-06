@@ -18,7 +18,7 @@ Mình tên là Doãn Quang Tiến, hiện tại là sinh viên năm 3 ngành To�
 * **Giới tính:** Nam
 * **Quê quán:** Ninh Bình, Việt Nam
 * **Trích dẫn yêu thích:**
-* <blockquote>
+<blockquote>
 	There is no clear-cut distinction between example and theory – Michael Atiyah<br>
 	Wenn du es nicht versuchst, wirst du nie wissen, ob du es kannst – Hans Kammerlander
 </blockquote>
