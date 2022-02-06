@@ -29,14 +29,20 @@ F(X_2) \arrow[d, "F\left ( f \right )"'] \arrow[r, "\varphi_{X_2}"] & h_W(X_2) \
 F(X_1) \arrow[r, "\varphi_{X_1}"']                                  & h_W(X_1)                                   
 \end{tikzcd}
 có giao hoán hay không? Nếu vật $W$ tồn tại, thì đẳng cấu $$\varphi_W:F\left ( W \right )\overset{\sim }{\longrightarrow}h_W\left ( W \right )$$ xác định duy nhất một phần tử $\psi\in F\left ( W \right )$ thỏa mãn $$\varphi_W\left ( \psi \right )=\operatorname{id}_W\in h_W\left ( W \right )$$. Ta sẽ chứng minh $\left ( W,\psi \right )$ xác định $F$ khi $F$ và $h_W$ đẳng cấu theo nghĩa hàm tử. Với vật $X\in\operatorname{Ob}(\mathcal{C})$ bất kì, ta chọn phần tử $$h\in h_W\left ( X \right )=\operatorname{Hom}_{\mathcal{C}}\left ( X,W \right )$$, khi đó thì ta thu được $$F\left ( h \right )\left ( \psi \right )\in F\left ( X \right )$$. Từ sơ đồ giao hoán
-<iframe \begin{tikzcd}
+\begin{tikzcd}
 F(W) \arrow[d, "F\left ( h \right )"'] \arrow[r, "\varphi_{W}"] & h_W(W) \arrow[d, "h_W\left ( h \right )"] \\
 F(X) \arrow[r, "\varphi_{X}"']                                  & h_W(X)                                   
-\end{tikzcd}></iframe>
+\end{tikzcd}
 dẫn đến $$\varphi_X\left ( F\left ( h \right )\left ( \psi \right ) \right )=h$$. Lại từ việc $\varphi_X$ là một phép đẳng cấu theo nghĩa tập hợp, $$\varphi_X\left ( F\left ( h \right )\left ( \psi \right ) \right )=h$$ , nghĩa là
 $$F\left ( X \right )=\left \{ F\left ( h \right )\left ( \psi \right )\mid h\in h_W\left ( W \right ) \right \}.$$
 Do đó, nếu $F\simeq h_W$ đẳng cấu hàm tử thì $F$ được biểu diễn bởi $\left ( W,\psi \right )$, nghĩa là $F$ biểu diễn được. Từ đây, ta có định nghĩa cụ thể của hàm tử biểu diễn được, phát biểu như sau
-<iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsMyxbMCwxLCJcXGJ1bGxldCJdLFsxLDAsIlxcYnVsbGV0Il0sWzAsMCwiXFxidWxsZXQiXSxbMCwxXSxbMiwxXSxbMiwwXV0=&embed" width="304" height="304" style="border-radius: 8px; border: none;"></iframe>
+\[\begin{tikzcd}
+	\bullet & \bullet \\
+	\bullet
+	\arrow[from=2-1, to=1-2]
+	\arrow[from=1-1, to=1-2]
+	\arrow[from=1-1, to=2-1]
+\end{tikzcd}\]
 
 
 
