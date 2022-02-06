@@ -21,7 +21,8 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Algebraic Geometry'
-description:	       'Viết nhiều để tốt hơn'
+subtitle: 'Viết nhiều để tốt hơn'
+description:	       
 author:              'Doãn Quang Tiến'
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
