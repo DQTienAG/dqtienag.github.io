@@ -10,7 +10,7 @@ Hôm nay, mình sẽ giới thiệu về việc xây dựng tích trực tiếp 
 **1. Hàm tử biểu diễn được**<br>
 Trước tiên, ta sẽ đi xem xét hàm tử cảm sinh từ một vật trong phạm trù.
 <blockquote>
-**Định nghĩa** (Hàm tử cảm sinh bởi một vật trong phạm trù) Xét một vật $W$ trong phạm trù $\mathcal{C}$, ta định nghĩa
+<strong> Định nghĩa </strong>(Hàm tử cảm sinh bởi một vật trong phạm trù) Xét một vật $W$ trong phạm trù $\mathcal{C}$, ta định nghĩa
 <center>
     $h_W\left ( X \right ):=\operatorname{Hom}_{\mathcal{C}}\left ( X,W \right ),\quad X\in\operatorname{Ob}\left ( \mathcal{C} \right ).$
  </center>
