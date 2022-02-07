@@ -173,10 +173,8 @@ $$\left ( \Rightarrow  \right )$$ Giả sử tích thớ $$X\times_{Z}Y$$ tồn 
     $$\left ( p_1\circ h,p_2\circ h \right )=G\left ( g \right )\left ( \left ( p_1,p_2 \right ) \right ).$$
     </center>
 Từ sơ đồ sau đây giao hoán
-        <center>
-    <!-- https://q.uiver.app/?q=WzAsNCxbMCwwLCJHKFcpIl0sWzEsMCwiaF9XKFcpIl0sWzAsMSwiRyhUKSJdLFsxLDEsImhfVyhUKSJdLFswLDFdLFswLDIsIkcoaCkiLDJdLFsxLDMsImhfVyhoKSJdLFsyLDNdXQ== -->
-<iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMCwwLCJHKFcpIl0sWzEsMCwiaF9XKFcpIl0sWzAsMSwiRyhUKSJdLFsxLDEsImhfVyhUKSJdLFswLDFdLFswLDIsIkcoaCkiLDJdLFsxLDMsImhfVyhoKSJdLFsyLDNdXQ==&embed" width="361" height="304" style="border-radius: 8px; border: none;"></iframe>
-    </center>
+ <!-- https://q.uiver.app/?q=WzAsNCxbMCwwLCJHKFcpIl0sWzEsMCwiaF9XKFcpIl0sWzAsMSwiRyhUKSJdLFsxLDEsImhfVyhUKSJdLFswLDFdLFswLDIsIkcoaCkiLDJdLFsxLDMsImhfVyhoKSJdLFsyLDNdXQ== -->
+<iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMCwwLCJHKFcpIl0sWzEsMCwiaF9XKFcpIl0sWzAsMSwiRyhUKSJdLFsxLDEsImhfVyhUKSJdLFswLDFdLFswLDIsIkcoaCkiLDJdLFsxLDMsImhfVyhoKSJdLFsyLDNdXQ==&embed" width="361" height="304" style="border-radius: 8px; border: none;"></iframe><br>
     dẫn đến $$$h\in h_W\left ( h \right )$$, điều này tương ứng với việc $$\left ( p_1\circ h,p_2\circ h \right )\in G\left ( T \right )$$. Mặt khác, $$h$$ tương ứng với $$\left ( f,g \right )\in G\left ( T \right )$$, nên từ đây ta thu được $$\left ( f,g \right )=\left ( p_1\circ h,p_2\circ h \right )$$, nghĩa là sơ đồ $$(4)$$ giao hoán. Do đó, các tính chất trên là điều kiện cần để tích thớ tồn tại.<br>
     
     $$\left ( \Leftarrow  \right )$$ Giả sử tồn tại cặp $$\left ( W,\left ( p_1,p_2 \right ) \right )$$ thỏa mãn các tính chất trên (điều kiện cần). Khi đó, với $$T$$ là một vật trong phạm trù $$\mathcal{C}$$, nghĩa là $$T\in\operatorname{Ob}(\mathcal{C})$$, ta định nghĩa ánh xạ $$\varphi_T$$ giữa các tập hợp như sau
@@ -186,6 +184,7 @@ Từ sơ đồ sau đây giao hoán
 a &\mapsto \left ( p_1\circ a,p_2\circ a \right ),
 \end{align*}$$
     </center>
+    <center>
     <!-- https://q.uiver.app/?q=WzAsNCxbMSwwLCJUIl0sWzEsMSwiVyJdLFswLDIsIlgiXSxbMiwyLCJZIl0sWzAsMSwiYSIsMV0sWzEsMiwicF8xIl0sWzEsMywicF8yIiwyXSxbMCwzLCJwXzJcXGNpcmMgYSJdLFswLDIsInBfMVxcY2lyYyBhIiwyXV0= -->
 <iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMSwwLCJUIl0sWzEsMSwiVyJdLFswLDIsIlgiXSxbMiwyLCJZIl0sWzAsMSwiYSIsMV0sWzEsMiwicF8xIl0sWzEsMywicF8yIiwyXSxbMCwzLCJwXzJcXGNpcmMgYSJdLFswLDIsInBfMVxcY2lyYyBhIiwyXV0=&embed" width="432" height="432" style="border-radius: 8px; border: none;"></iframe>
 </center>
