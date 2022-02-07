@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Chào mừng bạn đến với AAG (một nỗi ám ảnh)
+title: Chào mừng bạn đến với Thế Giới Toán học
 permalink: /about
 ---
 
