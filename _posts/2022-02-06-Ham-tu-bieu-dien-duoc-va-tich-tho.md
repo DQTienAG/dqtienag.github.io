@@ -49,13 +49,47 @@ Tiếp theo, để trả lời cho câu hỏi trên, ta sẽ đến với một 
 </blockquote>
 **Chứng minh.** Ta giả sử có cặp $$\left ( \widetilde{W},\widetilde{\psi} \right )$$ biểu diễn hàm tử $F$, khi đó tồn tại các đẳng cấu $$\varphi:F\rightarrow h_W$$ và $$\widetilde{\varphi}:F\rightarrow h_{\widetilde{W}}$$ thỏa mãn $$\varphi_W\left ( \psi \right )=\operatorname{id}_W$$ và $$\widetilde{\varphi}_{\widetilde{W}}\left ( \widetilde{\psi} \right )=\operatorname{id}_{\widetilde{W}}$$. Từ đây, ta có các đẳng cấu theo nghĩa tập hợp như sau
 <center>
-    $$\varphi_{\widetilde{W}}:F\left ( \widetilde{W} \right )\overset{\sim }{\longrightarrow}h_W\left ( \widetilde{W} \right ),\enskip \widetilde{\varphi}_{W}:F\left ( W \right )\overset{\sim }{\longrightarrow}h_{\widetilde{W}}\left ( W \right ),$$
+    $$\varphi_{\widetilde{W}}:F\left ( \widetilde{W} \right )\overset{\sim }{\longrightarrow}h_W\left ( \widetilde{W} \right ),\quad \widetilde{\varphi}_{W}:F\left ( W \right )\overset{\sim }{\longrightarrow}h_{\widetilde{W}}\left ( W \right ),$$
 </center>
 và ta xác định được các cấu xạ dưới đây
 <center>
-    $$\eta=\varphi_{\widetilde{W}}\left ( \widetilde{\psi} \right ):\widetilde{W}\longrightarrow W,\enskip \widetilde{\eta}=\widetilde{\varphi}_{W}\left ( \psi \right ):W\longrightarrow \widetilde{W}.$$
+    $$\eta=\varphi_{\widetilde{W}}\left ( \widetilde{\psi} \right ):\widetilde{W}\longrightarrow W,\quad \widetilde{\eta}=\widetilde{\varphi}_{W}\left ( \psi \right ):W\longrightarrow \widetilde{W}.$$
 </center>
 Ta sẽ chứng minh $$\eta\circ \widetilde{\eta}=\operatorname{id}_W$$ và $$\widetilde{\eta}\circ\eta =\operatorname{id}_{\widetilde{W}}$$, và ta cũng có $$F\left ( \eta \right )\left ( \psi \right )=\widetilde{\psi}$$ và $$F\left ( \widetilde{\eta} \right )\left ( \widetilde{\psi} \right )=\psi$$. Từ tính giao hoán của sơ đồ sau
+<!-- https://q.uiver.app/?q=WzAsNCxbMCwwLCJGKFcpIl0sWzEsMCwiaF9XKFcpIl0sWzAsMSwiRlxcbGVmdCAoIFxcd2lkZXRpbGRle1d9IFxccmlnaHQgKSJdLFsxLDEsImhfV1xcbGVmdCAoIFxcd2lkZXRpbGRle1d9IFxccmlnaHQgKSJdLFswLDEsIlxcdmFycGhpX1ciXSxbMiwzLCJcXHZhcnBoaV97XFx3aWRldGlsZGV7V319IiwyXSxbMSwzLCJoX1coXFxldGEpIl0sWzAsMiwiRihcXGV0YSkiLDJdXQ== -->
+<iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMCwwLCJGKFcpIl0sWzEsMCwiaF9XKFcpIl0sWzAsMSwiRlxcbGVmdCAoIFxcd2lkZXRpbGRle1d9IFxccmlnaHQgKSJdLFsxLDEsImhfV1xcbGVmdCAoIFxcd2lkZXRpbGRle1d9IFxccmlnaHQgKSJdLFswLDEsIlxcdmFycGhpX1ciXSxbMiwzLCJcXHZhcnBoaV97XFx3aWRldGlsZGV7V319IiwyXSxbMSwzLCJoX1coXFxldGEpIl0sWzAsMiwiRihcXGV0YSkiLDJdXQ==&embed" width="399" height="304" style="border-radius: 8px; border: none;"></iframe>
+nên ta thu được $$F\left ( \eta \right )\left ( \psi \right )=\widetilde{\psi}$$. Mặt khác, từ phép đẳng cấu hàm tử $$F\simeq h_{\widetilde{W}}$$, dẫn đến $$F\left ( \widetilde{\eta} \right )\left ( \widetilde{\psi} \right )=\psi$$. Do đó, ta tính toán được
+<center>
+    $$\begin{align*}
+    F\left ( \eta\circ \widetilde{\eta} \right )\left ( \psi \right )&=F\left ( \widetilde{\eta} \right )\left ( F\left ( \eta \right )\left ( \psi \right ) \right )=\psi\\
+F\left ( \widetilde{\eta}\circ \eta \right )\left ( \widetilde{\psi} \right )&=F\left ( \eta \right )\left ( F\left ( \widetilde{\eta} \right )\left ( \widetilde{\psi} \right ) \right )=\widetilde{\psi}
+\end{align*}$$
+</center>
+Bởi vậy, ta thu được sơ đồ giao hoán sau đây
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
