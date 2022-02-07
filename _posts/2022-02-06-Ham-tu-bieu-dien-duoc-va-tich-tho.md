@@ -56,8 +56,10 @@ và ta xác định được các cấu xạ dưới đây
     $$\eta=\varphi_{\widetilde{W}}\left ( \widetilde{\psi} \right ):\widetilde{W}\longrightarrow W,\quad \widetilde{\eta}=\widetilde{\varphi}_{W}\left ( \psi \right ):W\longrightarrow \widetilde{W}.$$
 </center>
 Ta sẽ chứng minh $$\eta\circ \widetilde{\eta}=\operatorname{id}_W$$ và $$\widetilde{\eta}\circ\eta =\operatorname{id}_{\widetilde{W}}$$, và ta cũng có $$F\left ( \eta \right )\left ( \psi \right )=\widetilde{\psi}$$ và $$F\left ( \widetilde{\eta} \right )\left ( \widetilde{\psi} \right )=\psi$$. Từ tính giao hoán của sơ đồ sau
-<!-- https://q.uiver.app/?q=WzAsNCxbMCwwLCJGKFcpIl0sWzEsMCwiaF9XKFcpIl0sWzAsMSwiRlxcbGVmdCAoIFxcd2lkZXRpbGRle1d9IFxccmlnaHQgKSJdLFsxLDEsImhfV1xcbGVmdCAoIFxcd2lkZXRpbGRle1d9IFxccmlnaHQgKSJdLFswLDEsIlxcdmFycGhpX1ciXSxbMiwzLCJcXHZhcnBoaV97XFx3aWRldGlsZGV7V319IiwyXSxbMSwzLCJoX1coXFxldGEpIl0sWzAsMiwiRihcXGV0YSkiLDJdXQ== -->
+<center>
+    <!-- https://q.uiver.app/?q=WzAsNCxbMCwwLCJGKFcpIl0sWzEsMCwiaF9XKFcpIl0sWzAsMSwiRlxcbGVmdCAoIFxcd2lkZXRpbGRle1d9IFxccmlnaHQgKSJdLFsxLDEsImhfV1xcbGVmdCAoIFxcd2lkZXRpbGRle1d9IFxccmlnaHQgKSJdLFswLDEsIlxcdmFycGhpX1ciXSxbMiwzLCJcXHZhcnBoaV97XFx3aWRldGlsZGV7V319IiwyXSxbMSwzLCJoX1coXFxldGEpIl0sWzAsMiwiRihcXGV0YSkiLDJdXQ== -->
 <iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMCwwLCJGKFcpIl0sWzEsMCwiaF9XKFcpIl0sWzAsMSwiRlxcbGVmdCAoIFxcd2lkZXRpbGRle1d9IFxccmlnaHQgKSJdLFsxLDEsImhfV1xcbGVmdCAoIFxcd2lkZXRpbGRle1d9IFxccmlnaHQgKSJdLFswLDEsIlxcdmFycGhpX1ciXSxbMiwzLCJcXHZhcnBoaV97XFx3aWRldGlsZGV7V319IiwyXSxbMSwzLCJoX1coXFxldGEpIl0sWzAsMiwiRihcXGV0YSkiLDJdXQ==&embed" width="399" height="304" style="border-radius: 8px; border: none;"></iframe>
+</center>
 nên ta thu được $$F\left ( \eta \right )\left ( \psi \right )=\widetilde{\psi}$$. Mặt khác, từ phép đẳng cấu hàm tử $$F\simeq h_{\widetilde{W}}$$, dẫn đến $$F\left ( \widetilde{\eta} \right )\left ( \widetilde{\psi} \right )=\psi$$. Do đó, ta tính toán được
 <center>
     $$\begin{align*}
@@ -66,6 +68,21 @@ F\left ( \widetilde{\eta}\circ \eta \right )\left ( \widetilde{\psi} \right )&=F
 \end{align*}$$
 </center>
 Bởi vậy, ta thu được sơ đồ giao hoán sau đây
+<center>
+    <!-- https://q.uiver.app/?q=WzAsNCxbMCwwLCJGKFcpIl0sWzEsMCwiaF9XKFcpIl0sWzAsMSwiRlxcbGVmdCAoIFcgXFxyaWdodCApIl0sWzEsMSwiaF9XXFxsZWZ0ICggVyBcXHJpZ2h0ICkiXSxbMCwxLCJcXHZhcnBoaV9XIl0sWzIsMywiXFx2YXJwaGlfe1d9IiwyXSxbMSwzLCJoX1dcXGxlZnQgKCBcXGV0YVxcY2lyY1xcd2lkZXRpbGRle1xcZXRhfSBcXHJpZ2h0ICkiXSxbMCwyLCJGXFxsZWZ0ICggXFxldGFcXGNpcmNcXHdpZGV0aWxkZXtcXGV0YX0gXFxyaWdodCApIiwyXV0= -->
+<iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMCwwLCJGKFcpIl0sWzEsMCwiaF9XKFcpIl0sWzAsMSwiRlxcbGVmdCAoIFcgXFxyaWdodCApIl0sWzEsMSwiaF9XXFxsZWZ0ICggVyBcXHJpZ2h0ICkiXSxbMCwxLCJcXHZhcnBoaV9XIl0sWzIsMywiXFx2YXJwaGlfe1d9IiwyXSxbMSwzLCJoX1dcXGxlZnQgKCBcXGV0YVxcY2lyY1xcd2lkZXRpbGRle1xcZXRhfSBcXHJpZ2h0ICkiXSxbMCwyLCJGXFxsZWZ0ICggXFxldGFcXGNpcmNcXHdpZGV0aWxkZXtcXGV0YX0gXFxyaWdodCApIiwyXV0=&embed" width="371" height="304" style="border-radius: 8px; border: none;"></iframe>
+</center>
+thỏa mãn $$h_W\left ( \eta\circ \widetilde{\eta} \right )\left ( \operatorname{id}_W \right )=\operatorname{id}_W$$, nghĩa là $$\eta\circ \widetilde{\eta}=\operatorname{id}_{W}$$. Một cách tương tự, ta cũng có $$\widetilde{\eta}\circ \eta =\operatorname{id}_{\widetilde{W}}$$, nghĩa là $$\left ( W,\psi \right )$$ và $$\left ( \widetilde{W},\widetilde{\psi} \right )$$ đẳng cấu với nhau. Vậy khi một hàm tử phản biến $$F$$ biểu diễn được thì cặp $$\left ( W,\psi \right )$$ được xác định một cách duy nhất, sai khác một đẳng cấu. $$\square$$ <br>
+
+Ta sẽ định nghĩa tích $$X\times Y$$, trong đó $$X$$ và $$Y$$ là các vật trong phạm trù $$\mathcal{C}$$ bằng việc sử dụng hàm tử biểu diễn được. Ta định nghĩa hàm tử phản biến $$F:\mathcal{C}\rightarrow \mathbf{Set}$$ như sau: với vật $$Z$$ trong phạm trù $$\mathcal{C}$$, nghĩa là $$Z\in\operatorname{Ob}(\mathcal{C})$$
+<center>
+    $$F\left ( Z \right )=\operatorname{Hom}_{\mathcal{C}}\left ( Z,X \right )\times \operatorname{Hom}_{\mathcal{C}}\left ( Z,Y \right ),$$
+</center>
+trong đó vế phải là tích theo nghĩa tập hợp. Tiếp theo, với mọi $$f\in \operatorname{Hom}_{\mathcal{C}}\left ( Z_1,Z_2 \right ),a\in \operatorname{Hom}_{\mathcal{C}}\left ( Z_2,X \right )$$ và $$b\in \operatorname{Hom}_{\mathcal{C}}\left ( Z_2,Y \right )$$, ta định nghĩa
+<center>
+    $$F\left ( f \right )\left ( \left ( a,b \right ) \right )=\left ( f\circ a,f\circ b \right )\in F\left ( Z_1 \right ),$$
+</center>
+khi đó ta thu được $$F\left ( f \right )\in\operatorname{Hom}_{\mathbf{Set}}\left ( F\left ( Z_2 \right ),F\left ( Z_1 \right ) \right )$$, nghĩa là, $$F$$ là hàm tử phản biến. Khi hàm tử $$F$$ biểu diễn được, nghĩa là $$F\simeq h_W,$$ với $$W\in\operatorname{Ob}(\mathcal{C})$$ thì khi đó vật $$W$$ được xác định một cách duy nhất theo bổ đề (1.1) và được gọi là tích của $$X$$ và $$Y$$ trong phạm trù $$\mathcal{C}$$, kí hiệu bởi $$X\times Y$$.
 
 
 
