@@ -84,17 +84,15 @@ trong đó vế phải là tích theo nghĩa tập hợp. Tiếp theo, với m�
 </center>
 khi đó ta thu được $$F\left ( f \right )\in\operatorname{Hom}_{\mathbf{Set}}\left ( F\left ( Z_2 \right ),F\left ( Z_1 \right ) \right )$$, nghĩa là, $$F$$ là hàm tử phản biến. Khi hàm tử $$F$$ biểu diễn được, nghĩa là $$F\simeq h_W,$$ với $$W\in\operatorname{Ob}(\mathcal{C})$$ thì khi đó vật $$W$$ được xác định một cách duy nhất theo bổ đề (1.1) và được gọi là tích của $$X$$ và $$Y$$ trong phạm trù $$\mathcal{C}$$, kí hiệu bởi $$X\times Y$$.
 <blockquote>
-    <strong> Tính chất 1.2. </strong> Trong phạm trù \(\mathcal{C}\), nếu tích \(X\times Y\) tồn tại, khi đó ta có các tính chất sau đây
-    \begin{itemize}
-    \item Tồn tại các cấu xạ \(p_1\in\operatorname{Hom}_{\mathcal{C}}\left ( X\times Y,X \right )\) và \(p_2\in\operatorname{Hom}_{\mathcal{C}}\left ( X\times Y,Y \right )\) sao cho với các cấu xạ \(f\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,X \right )\) và \(g\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,Y \right )\) bất kì, tồn tại duy nhất cấu xạ \(h\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,X\times Y \right )\) thỏa mãn các quan hệ dưới đây
+    <strong> Tính chất 1.2. </strong> Trong phạm trù \(\mathcal{C}\), nếu tích \(X\times Y\) tồn tại, khi đó ta có các tính chất sau đây<br>
+    \(\bullet \) Tồn tại các cấu xạ \(p_1\in\operatorname{Hom}_{\mathcal{C}}\left ( X\times Y,X \right )\) và \(p_2\in\operatorname{Hom}_{\mathcal{C}}\left ( X\times Y,Y \right )\) sao cho với các cấu xạ \(f\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,X \right )\) và \(g\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,Y \right )\) bất kì, tồn tại duy nhất cấu xạ \(h\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,X\times Y \right )\) thỏa mãn các quan hệ dưới đây
     \[f=p_1\circ h\quad\text{và}\quad g=p_2\circ h.\]
     Nghĩa là tồn tại duy nhất cấu xạ \(h\) sao cho sơ đồ sau đây giao hoán
     <center>
         <!-- https://q.uiver.app/?q=WzAsNCxbMSwwLCJaIl0sWzEsMSwiWFxcdGltZXMgWSJdLFswLDIsIlgiXSxbMiwyLCJZIl0sWzAsMSwiaCIsMV0sWzEsMiwicF8xIl0sWzEsMywicF8yIiwyXSxbMCwzLCJnIl0sWzAsMiwiZiIsMl1d -->
 <iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMSwwLCJaIl0sWzEsMSwiWFxcdGltZXMgWSJdLFswLDIsIlgiXSxbMiwyLCJZIl0sWzAsMSwiaCIsMV0sWzEsMiwicF8xIl0sWzEsMywicF8yIiwyXSxbMCwzLCJnIl0sWzAsMiwiZiIsMl1d&embed" width="460" height="432" style="border-radius: 8px; border: none;"></iframe>
     </center>
-    \item Ngược lại, nếu vật \(X\times Y\) thỏa mãn các tính chất của điều kiện cần, thì \(\left ( X\times Y,\left ( p_1,p_2 \right ) \right )\) hay đơn giản là \(X\times Y\) là tích của các vật \(X\) và \(Y\) trong phạm trù \(\mathcal{C}\).
-    \end{itemize}
+   \(\bullet \) Ngược lại, nếu vật \(X\times Y\) thỏa mãn các tính chất của điều kiện cần, thì \(\left ( X\times Y,\left ( p_1,p_2 \right ) \right )\) hay đơn giản là \(X\times Y\) là tích của các vật \(X\) và \(Y\) trong phạm trù \(\mathcal{C}\).
 </blockquote>
 **Chứng minh.** Nếu $$F\simeq h_{X\times Y}$$ thì
 <center>
@@ -104,7 +102,7 @@ và
 <center>
     $$h_{X\times Y}\left ( X\times Y \right )=\operatorname{Hom}_{\mathcal{C}}\left ( X\times Y,X\times Y \right ).$$
     </center>
-Do đó, tồn tại cặp cấu xạ $$\left ( p_1,p_2 \right )\in F\left ( X\times Y \right )$$ tương ứng với $$\operatorname{id}_{X\times Y}$$. Tiếp theo, ta sẽ chỉ ra các cấu xạ $$p_1\in\operatorname{Hom}_{\mathcal{C}}\left ( X\times Y,X \right )$$ và $$p_2\in\operatorname{Hom}_{\mathcal{C}}\left ( X\times Y,Y \right )$$ thỏa mãn các tính chất của điều kiện cần. Với vật $$Z$$ trong phạm trù $$\mathcal{C}$$, nghĩa là $$Z\in\mathcal{C}$$ cùng các cấu xạ $$$f\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,X \right )$$ và $$g\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,Y \right )$$, ta có thể xem như $$\left ( f,g \right )\in F\left ( Z \right )$$. Mà từ việc $$F\left ( Z \right )\simeq h_{X\times Y}\left ( Z \right )$$, nên tồn tại duy nhất $$h\in h_{X\times Y}\left ( Z \right )=\operatorname{Hom}_{\mathcal{C}}\left ( Z,X\times Y \right )$$ tương ứng với cặp các cấu xạ $$\left ( f,g \right )$$. Từ đây, ta thu được $$F\left ( h \right )\in \operatorname{Hom}_{\mathbf{Set}}\left ( F\left ( X\times Y \right ),F\left ( Z \right ) \right )$$ tương ứng với $$h_{X\times Y}\left ( h \right )\in \operatorname{Hom}_{\mathbf{Set}}\left ( h_{X\times Y}\left ( X\times Y \right ),h_{X\times Y}\left ( Z \right ) \right )$$. Mặt khác, ta có quan hệ sau đây
+Do đó, tồn tại cặp cấu xạ $$\left ( p_1,p_2 \right )\in F\left ( X\times Y \right )$$ tương ứng với $$\operatorname{id}_{X\times Y}$$. Tiếp theo, ta sẽ chỉ ra các cấu xạ $$p_1\in\operatorname{Hom}_{\mathcal{C}}\left ( X\times Y,X \right )$$ và $$p_2\in\operatorname{Hom}_{\mathcal{C}}\left ( X\times Y,Y \right )$$ thỏa mãn các tính chất của điều kiện cần. Với vật $$Z$$ trong phạm trù $$\mathcal{C}$$, nghĩa là $$Z\in\mathcal{C}$$ cùng các cấu xạ $$f\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,X \right )$$ và $$g\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,Y \right )$$, ta có thể xem như $$\left ( f,g \right )\in F\left ( Z \right )$$. Mà từ việc $$F\left ( Z \right )\simeq h_{X\times Y}\left ( Z \right )$$, nên tồn tại duy nhất $$h\in h_{X\times Y}\left ( Z \right )=\operatorname{Hom}_{\mathcal{C}}\left ( Z,X\times Y \right )$$ tương ứng với cặp các cấu xạ $$\left ( f,g \right )$$. Từ đây, ta thu được $$F\left ( h \right )\in \operatorname{Hom}_{\mathbf{Set}}\left ( F\left ( X\times Y \right ),F\left ( Z \right ) \right )$$ tương ứng với $$h_{X\times Y}\left ( h \right )\in \operatorname{Hom}_{\mathbf{Set}}\left ( h_{X\times Y}\left ( X\times Y \right ),h_{X\times Y}\left ( Z \right ) \right )$$. Mặt khác, ta có quan hệ sau đây
 <center>
     $$\begin{align*}
     F\left ( h \right )\left ( \left ( p_1,p_2 \right ) \right )&=\left ( p_1\circ h,p_2\circ h \right )\\
@@ -134,9 +132,24 @@ Hơn nữa, với $$a\in\operatorname{Hom}_{\mathcal{C}}\left ( Z_1,Z_2 \right )
 Cuối cùng, ta thu được $$F$$ và $$h_{X\times Y}$$ đẳng cấu hàm tử, nghĩa là $$F$$ biểu diễn được. $$\square$$ <br>
 
 **2. Tích thớ theo nghĩa phạm trù**<br>
+Xét $$X,Y$$ và $$Z$$ là các vật, cùng với các cấu xạ $$q_1:X\rightarrow Z$$ và $$q_2:Y\rightarrow Z$$ trong phạm trù $$\mathcal{C}$$, khi đó ta định nghĩa một hàm tử $$G:\mathcal{C}\rightarrow \mathbf{Set}$$ như sau
+<center>
+    $$G\left ( T \right )=\left \{ \left ( f,g \right )\in\operatorname{Hom}_{\mathcal{C}}\left ( T,X \right )\times \operatorname{Hom}_{\mathcal{C}}\left ( T,Y \right )\mid q_1\circ f=q_2\circ g \right \},\tag{1}$$
+    </center>
+trong đó $$T$$ là một vật trong phạm trù $$\mathcal{C}$$, nghĩa là $$T\in\operatorname{Ob}(\mathcal{C})$$ và $$G\left ( T \right )$$ chứa tất cả các cặp cấu xạ $$\left ( f,g \right )$$ sao cho sơ đồ sau đây giao hoán
+<center>
+    <!-- https://q.uiver.app/?q=WzAsNCxbMSwwLCJUIl0sWzAsMSwiWCJdLFsxLDIsIloiXSxbMiwxLCJZIl0sWzAsMSwiZiIsMl0sWzEsMiwicV8xIiwyXSxbMCwzLCJnIl0sWzMsMiwicV8yIl1d -->
+<iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMSwwLCJUIl0sWzAsMSwiWCJdLFsxLDIsIloiXSxbMiwxLCJZIl0sWzAsMSwiZiIsMl0sWzEsMiwicV8xIiwyXSxbMCwzLCJnIl0sWzMsMiwicV8yIl1d&embed" width="432" height="432" style="border-radius: 8px; border: none;"></iframe>
+    </center>
+Khi đó, với $$h\in\operatorname{Hom}_{\mathcal{C}}\left ( T_1,T_2 \right )$$ và $$\left ( a,b \right )\in G\left ( T_2 \right )$$, ta định nghĩa
+<center>
+    $$G\left ( h \right )\left ( \left ( a,b \right ) \right )=\left ( a\circ h,b\circ h \right ),$$
+    </center>
+thì dẫn đến $$G\left ( h \right )\left ( \left ( a,b \right ) \right )\in G\left ( T_1 \right )$$ và $$G\left ( h \right )\in\operatorname{Hom}_{\mathbf{Set}}\left ( G\left ( T_2 \right ),G\left ( T_1 \right ) \right )$$, nghĩa là, $$G$$ là hàm tử phản biến. Nếu $$\left ( W,\left ( p_1,p_2 \right ) \right )$$, trong đó $$\left ( p_1,p_2 \right )\in G\left ( W \right )$$, biểu diễn hàm tử $$G$$, thì $$\left ( p_1,p_2 \right )\in G\left ( W \right )$$, hay đơn giản ta viết $$W$$ được gọi là tích thớ của $$X$$ và $$Y$$ trên $$Z$$, kí hiệu bởi $$X\times_{Z}Y$$. Khi đó các cấu xạ $$p_1:X\times_{Z}Y\rightarrow X$$ và $$p_2:X\times_{Z}Y\rightarrow Y$$ được gọi là các phép chiếu chính tắc trên $$X$$ và tương ứng trên $$Y$$. Lưu ý rằng, $$\left ( W,\left ( p_1,p_2 \right ) \right )$$ được xác định một cách duy nhất, sai khác một đẳng cấu.<br>
 
-
-
+Như trong tính chất (1.2), ta cũng có tính chất tương tự như sau
+<blockquote>
+    <strong> Tính chất 2.1. </strong> 
 
 
 
