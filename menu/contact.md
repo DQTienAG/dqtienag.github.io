@@ -46,7 +46,7 @@ permalink: /contact
 * **Loring W. Tu.** An Introduction to Manifolds (Universitext) 2nd ed. 2011 Edition.
 
 
-Đây là một số sách văn học Việt Nam và nước ngoài mình đã từng đọc, chủ yếu đọc lậu trên mạng :)
+Đây là một số đầu sách văn học Việt Nam và nước ngoài mình đã từng đọc và cảm thấy khá hay (có nhiều ý nghĩa khác nhau về cuộc sống và con người), mà chủ yếu mình đọc lậu trên mạng :)
 
 ### Văn học Việt Nam
 
