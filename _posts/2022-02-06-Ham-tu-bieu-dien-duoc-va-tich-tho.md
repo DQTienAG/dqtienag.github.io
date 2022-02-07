@@ -173,8 +173,160 @@ $$\left ( \Rightarrow  \right )$$ Giả sử tích thớ $$X\times_{Z}Y$$ tồn 
     $$\left ( p_1\circ h,p_2\circ h \right )=G\left ( g \right )\left ( \left ( p_1,p_2 \right ) \right ).$$
     </center>
 Từ sơ đồ sau đây giao hoán
-        
+        <center>
+    <!-- https://q.uiver.app/?q=WzAsNCxbMCwwLCJHKFcpIl0sWzEsMCwiaF9XKFcpIl0sWzAsMSwiRyhUKSJdLFsxLDEsImhfVyhUKSJdLFswLDFdLFswLDIsIkcoaCkiLDJdLFsxLDMsImhfVyhoKSJdLFsyLDNdXQ== -->
+<iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMCwwLCJHKFcpIl0sWzEsMCwiaF9XKFcpIl0sWzAsMSwiRyhUKSJdLFsxLDEsImhfVyhUKSJdLFswLDFdLFswLDIsIkcoaCkiLDJdLFsxLDMsImhfVyhoKSJdLFsyLDNdXQ==&embed" width="361" height="304" style="border-radius: 8px; border: none;"></iframe>
+    </center>
+    dẫn đến $$$h\in h_W\left ( h \right )$$, điều này tương ứng với việc $$\left ( p_1\circ h,p_2\circ h \right )\in G\left ( T \right )$$. Mặt khác, $$h$$ tương ứng với $$\left ( f,g \right )\in G\left ( T \right )$$, nên từ đây ta thu được $$\left ( f,g \right )=\left ( p_1\circ h,p_2\circ h \right )$$, nghĩa là sơ đồ $$(4)$$ giao hoán. Do đó, các tính chất trên là điều kiện cần để tích thớ tồn tại.<br>
+    
+    $$\left ( \Leftarrow  \right )$$ Giả sử tồn tại cặp $$\left ( W,\left ( p_1,p_2 \right ) \right )$$ thỏa mãn các tính chất trên (điều kiện cần). Khi đó, với $$T$$ là một vật trong phạm trù $$\mathcal{C}$$, nghĩa là $$T\in\operatorname{Ob}(\mathcal{C})$$, ta định nghĩa ánh xạ $$\varphi_T$$ giữa các tập hợp như sau
+<center>
+    $$\begin{align*}
+    \varphi_T:h_W\left ( T \right )&\longrightarrow G\left ( T \right )\\
+a &\mapsto \left ( p_1\circ a,p_2\circ a \right ),
+\end{align*}$$
+    </center>
+    <!-- https://q.uiver.app/?q=WzAsNCxbMSwwLCJUIl0sWzEsMSwiVyJdLFswLDIsIlgiXSxbMiwyLCJZIl0sWzAsMSwiYSIsMV0sWzEsMiwicF8xIl0sWzEsMywicF8yIiwyXSxbMCwzLCJwXzJcXGNpcmMgYSJdLFswLDIsInBfMVxcY2lyYyBhIiwyXV0= -->
+<iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMSwwLCJUIl0sWzEsMSwiVyJdLFswLDIsIlgiXSxbMiwyLCJZIl0sWzAsMSwiYSIsMV0sWzEsMiwicF8xIl0sWzEsMywicF8yIiwyXSxbMCwzLCJwXzJcXGNpcmMgYSJdLFswLDIsInBfMVxcY2lyYyBhIiwyXV0=&embed" width="432" height="432" style="border-radius: 8px; border: none;"></iframe>
+</center>
+Ta sẽ chứng minh rằng $$\varphi_T$$ là song ánh. Ta xét cặp cấu xạ $$\left ( f,g \right )\in G(T)$$ bất kì, sử dụng điều kiện cần khẳng định rằng tồn tại duy nhất cấu xạ $$h\in h_W\left ( T \right )$$ thỏa mãn
+<center>
+    $$\left ( f,g \right )=\left ( p_1\circ h,p_2\circ h \right ),$$
+    </center>
+điều này khẳng định ánh xạ $$\varphi_T$$ là song ánh. Hơn nữa, với $$a\in\operatorname{Hom}_{\mathcal{C}}\left ( T_1,T_2 \right )$$ thì ta thu được sơ đồ sau đây giao hoán
+<center>
+    <!-- https://q.uiver.app/?q=WzAsNCxbMCwwLCJoX1coVF8yKSJdLFsxLDAsIkcoVF8yKSJdLFsxLDEsIkcoVF8xKSJdLFswLDEsImhfVyhUXzEpIl0sWzAsMSwiXFx2YXJwaGlfe1RfMX0iXSxbMSwyLCJmKGEpIl0sWzAsMywiaF9XKGEpIiwyXSxbMywyLCJcXHZhcnBoaV97VF8yfSIsMl1d -->
+<iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMCwwLCJoX1coVF8yKSJdLFsxLDAsIkcoVF8yKSJdLFsxLDEsIkcoVF8xKSJdLFswLDEsImhfVyhUXzEpIl0sWzAsMSwiXFx2YXJwaGlfe1RfMX0iXSxbMSwyLCJmKGEpIl0sWzAsMywiaF9XKGEpIiwyXSxbMywyLCJcXHZhcnBoaV97VF8yfSIsMl1d&embed" width="355" height="304" style="border-radius: 8px; border: none;"></iframe>
+    </center>
+    Nghĩa là, $$\varphi:h_W\overset{\sim }{\longrightarrow}G$$ là một phép đẳng cấu giữa các hàm tử, do đó $$G$$ được biểu diễn bởi cặp $$\left ( W,\left ( p_1,p_2 \right ) \right )$$. Kết hợp cả hai chiều ta thu được tính chất cần chứng minh về điều kiện cần và đủ để tích thớ $$X\times_{Z}Y$$ tồn tại. $$\square$$<br>
+    
+Việc chuẩn bị các định nghĩa và tính chất trên là để chứng minh kết quả chính trong bài viết này. Đó là khẳng định sự tồn tại của tích thớ trong phạm trù lược đồ $$\textbf{Sch}.$$
+<blockquote>
+    <strong> Định lý 2.2 </strong>(Tích thớ trong phạm trù lược đồ \(\textbf{Sch}\)) Trong phạm trù lược đồ \(\textbf{Sch}\), tích thớ là tồn tại.
+</blockquote>
+**Chứng minh.** Trước khi bước vào các bước chứng minh của định lý, ta cần một bổ đề sau đây<br>
+<blockquote>
+    <strong> Bổ đề 2.3 </strong>(Tích thớ trong phạm phạm trù lược đồ affine \(\textbf{Aff.Sch}\)) Cho các lược đồ affine \(X=\operatorname{Spec}A,Y=\operatorname{Spec}B\) và \(Z=\operatorname{Spec}C\) cùng các cấu xạ \(q_1:X\rightarrow Z\) và \(q_2:Y\rightarrow Z\), khi đó tích thớ \(\left ( X\times_{Z}Y,\left ( p_1,p_2 \right ) \right )\) là tồn tại, và được xác định bởi
+\[X\times_{Z}Y=\operatorname{Spec}\left ( A\otimes_{C}B \right ),\]
+trong đó \(p_1\) và \(p_2\) là các cấu xạ lược đồ affine cảm sinh từ các đồng cấu tự nhiên dưới đây
+\begin{align*}
+    \varphi_1:A&\rightarrow A\otimes_{C}B\\ 
+a &\mapsto a\otimes 1 
+\end{align*}
+\begin{align*}
+    \varphi_2:B&\rightarrow A\otimes_{C}B\\ 
+b &\mapsto 1\otimes b 
+\end{align*}
+    </blockquote>
+    **Chứng minh.** Trước tiên, ta sẽ nhắc lại mà không chứng minh một tính chất cơ bản, được phát biểu như sau<br>
+    <blockquote>
+    <strong> Tính chất 2.4 </strong> Cho cấu xạ \(\left ( f,\theta \right )\) từ lược đồ \(\left ( Z,\mathcal{O}_Z \right )\) đến lược đồ affine \(\left ( \operatorname{Spec}R,\mathcal{O}_{\operatorname{Spec}R} \right )\), khi đó ta có đẳng cấu sau đây
+\[\operatorname{Hom}_{\mathbf{Sch}}\left ( Z,\operatorname{Spec}R \right )\simeq \operatorname{Hom}_{\mathbf{Ring}}\left ( R,\Gamma\left ( Z,\mathcal{O}_Z \right ) \right )\]
+    </blockquote>
+    Sử dụng tính chất (2.4), các cấu xạ lược đồ $$f:T\rightarrow X$$ và $$g:T\rightarrow Y$$ được xác định một cách duy nhất bởi các đồng cấu vành tương ứng là $$\phi:A\rightarrow \Gamma\left ( T,\mathcal{O}_T \right )$$ và $$\psi:B\rightarrow \Gamma\left ( T,\mathcal{O}_T \right )$$, và để cho gọn ta đặt $$R=\Gamma\left ( T,\mathcal{O}_T \right )$$. Tương tự, ta cũng có các cấu xạ lược đồ $$q_1:X\rightarrow Z$$ và $$q_2:Y\rightarrow Z$$ được xác định một cách duy nhất bởi các đồng cấu vành tương ứng là $$\nu_1:C\rightarrow A$$ và $$\nu_2:C\rightarrow B$$, khi đó $$A$$ và $$B$$ là các $$C$$-đại số thông qua các đồng cấu $$\nu_1$$ và $$\nu_2$$. Hơn nữa, từ việc $$q_1\circ f=q_2\circ g$$, dẫn đến các đồng cấu $$\phi\circ \nu_1:C\rightarrow R$$ và $$\psi\circ \nu_2:C\rightarrow R$$ trùng nhau. Do đó, hàm tử $$G$$ trong $$(1)$$ có thể được viết lại như sau
+<center>
+    $$\begin{align*}
+    G\left ( T \right )&=\left \{ \left ( f,g \right )\in\operatorname{Hom}_{\mathcal{C}}\left ( T,X \right )\times \operatorname{Hom}_{\mathcal{C}}\left ( T,Y \right )\mid q_1\circ f=q_2\circ g \right \}\\
+&\simeq \left \{ \left ( \phi,\psi \right )\in \operatorname{Hom}_{\mathcal{C}}\left ( A,R \right )\times \operatorname{Hom}_{\mathcal{C}}\left ( B,R \right )\mid \phi\circ \nu_1=\psi\circ \nu_2 \right \}.
+\end{align*}$$
+    </center>
+Từ việc xem $$A$$ và $$B$$ như là các $$C$$-đại số thông qua các đồng cấu $$\nu_1$$ và $$\nu_2$$, ta thấy rằng từ việc $$\phi\circ \nu_1=\psi\circ \nu_2$$ dẫn đến $$\phi\left ( c\cdot 1_A \right )=\psi\left ( c\cdot 1_B \right )$$, trong đó $$c\in C$$ và $$1_A,1_B$$ tương ứng là các phần tử đơn vị của $$A$$ và $$B$$. Hơn nữa, ta cũng xem $$R$$ như là một $$C$$-đại số thông qua $$\phi\circ \nu_1=\psi\circ \nu_2$$, thì với $$a\in A,b\in B$$ và $$c\in C$$ ta thu được
+<center>
+    $$\phi\left ( c\cdot a \right )=c\cdot \phi\left ( a \right )\enskip\text{và}\enskip \psi\left ( c\cdot b \right )=c\cdot \psi\left ( b \right ).$$
+    </center>
+Từ đây, ta định nghĩa ánh xạ $$\Phi$$ như sau
+<center>
+    $$\begin{align*}
+    \Phi:A\times B&\longrightarrow R\\
+\left ( a,b \right ) &\mapsto \phi\left ( a \right )\psi\left ( b \right ),
+\end{align*}$$
+    </center>
+khi đó dễ kiểm tra $$\Phi$$ là ánh xạ $$C$$-song tuyến tính thỏa mãn với $$a\in A,b\in B$$ và $$c\in C$$ thì
+<center>
+    $$\Phi\left ( c\cdot a,b \right )=\Phi\left ( a,c\cdot b \right )=c\cdot \Phi\left ( a,b \right ),\tag{5}$$
+    </center>
+và, với $$a_1,a_2\in A$$ và $$b_1,b_2\in B$$ thì
+<center>
+    $$\Phi\left ( a_1a_2,b_1b_2 \right )=\Phi\left ( a_1,b_1 \right )\Phi\left ( a_2,b_2 \right ).\tag{6}$$
+    </center>
+Ngược lại, khi ánh xạ $$C$$-song tuyến tính $$\Phi$$ thỏa mãn $$(5)$$ và $$(6)$$, ta định nghĩa
+<center>
+    $$\phi\left ( a \right )=\Phi\left ( a,1_B \right )\enskip\text{và}\enskip \psi\left ( b \right )=\Phi\left ( 1_A,b \right ),$$
+    </center>
+thì dễ kiểm tra $$\phi:A\rightarrow R$$ và $$\psi:B\rightarrow R$$ là các đồng cấu vành, và với $$a\in A,b\in B$$ ta thu được
+<center>
+    $$\Phi\left ( a,b \right )=\Phi\left ( a,1_B \right )\Phi\left ( 1_A,b \right )=\phi\left ( a \right )\psi\left ( b \right ).$$
+    </center>
+Hơn nữa, với $$a\in A,b\in B$$ và $$c\in C$$ ta thu được
+<center>
+    $$\phi\left ( c\cdot 1_A \right )=\Phi\left ( c\cdot 1_A,1_B \right )=\Phi\left ( 1_A,c\cdot 1_B \right )=\psi\left ( c\cdot 1_B \right ),$$
+    </center>
+điều này khẳng định $$\phi\circ \nu_1=\psi\circ \nu_2$$. Do đó, ta thu được
+<center>
+    $$G\left ( T \right )\simeq \left \{ \Phi:A\times B\longrightarrow R\mid \Phi\enskip\text{là ánh xạ \(C\)-song tuyến tính thỏa mãn}\ \text{\((1)\) và \((2)\)} \right \}.\tag{7}$$
+    </center>
+Bởi định nghĩa của tích tensor $$A\otimes_{C}B$$ của các $$C$$-đại số $$A$$ và $$B$$, vế phải của $$(7)$$ đẳng cấu theo nghĩa tập hợp với $$\operatorname{Hom}\left ( A\otimes_{C}B,R \right )$$. Nghĩa là, ta có đẳng cấu theo nghĩa tập hợp sau đây
+<center>
+    $$G\left ( T \right )\overset{\sim }{\longrightarrow}\operatorname{Hom}\left ( A\otimes_{C}B,R \right ),$$
+    </center>
+và bởi tính chất (2.4), ta thu được đẳng cấu giữa các tập hợp như sau
+<center>
+    $$\varphi_T:G\left ( T \right )\overset{\sim }{\longrightarrow}\operatorname{Hom}\left ( Z,\operatorname{Spec}\left ( A\otimes_{C}B \right ) \right ).$$
+    </center>
+Cho cấu xạ lược đồ $$j:T_1\rightarrow T_2$$, khi đó nó cảm sinh một đồng cấu vành
+<center>
+    $$\widehat{j}:\Gamma\left ( T_1,\mathcal{O}_{T_1} \right )\rightarrow \Gamma\left ( T_2,\mathcal{O}_{T_2} \right ).$$
+    </center>
+Khi đó, nếu ta đặt $$R_1=\Gamma\left ( T_1,\mathcal{O}_{T_1} \right )$$ và $$R_2=\Gamma\left ( T_2,\mathcal{O}_{T_2} \right )$$, thì đồng cấu $$\widehat{j}$$ cảm sinh một ánh xạ
+<center>
+    $$\begin{align*}
+    \operatorname{Hom}\left ( A\otimes_{C}B,R_1 \right )&\rightarrow \operatorname{Hom}\left ( A\otimes_{C}B,R_2\right )\\
+\eta  &\mapsto \widehat{j}\circ\eta
+\end{align*}$$
+    </center>
+và ta lại sử dụng tính chất (2.4), thì thu được ánh xạ cảm sinh như sau
+<center>
+    $$\operatorname{Hom}\left ( T_2,\operatorname{Spec}\left ( A\otimes_{C}B \right ) \right )\rightarrow \operatorname{Hom}\left ( T_1,\operatorname{Spec}\left ( A\otimes_{C}B \right ) \right ).$$
+    </center>
+Để cho gọn thì ta đặt $$W=\operatorname{Spec}\left ( A\otimes_{C}B \right )$$, thì sơ đồ sau đây giao hoán
+    <center>
+    <!-- https://q.uiver.app/?q=WzAsNCxbMCwwLCJHKFRfMikiXSxbMSwwLCJcXG9wZXJhdG9ybmFtZXtIb219XFxsZWZ0ICggVF8yLFcgXFxyaWdodCApIl0sWzEsMSwiXFxvcGVyYXRvcm5hbWV7SG9tfVxcbGVmdCAoIFRfMSxXIFxccmlnaHQgKSJdLFswLDEsIkdUXzEpIl0sWzAsMSwiXFx2YXJwaGlfe1RfMn0iXSxbMSwyLCJoX1coaikiXSxbMCwzLCJHKGopIiwyXSxbMywyLCJcXHZhcnBoaV97VF8xfSIsMl1d -->
+<iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMCwwLCJHKFRfMikiXSxbMSwwLCJcXG9wZXJhdG9ybmFtZXtIb219XFxsZWZ0ICggVF8yLFcgXFxyaWdodCApIl0sWzEsMSwiXFxvcGVyYXRvcm5hbWV7SG9tfVxcbGVmdCAoIFRfMSxXIFxccmlnaHQgKSJdLFswLDEsIkdUXzEpIl0sWzAsMSwiXFx2YXJwaGlfe1RfMn0iXSxbMSwyLCJoX1coaikiXSxbMCwzLCJHKGopIiwyXSxbMywyLCJcXHZhcnBoaV97VF8xfSIsMl1d&embed" width="430" height="304" style="border-radius: 8px; border: none;"></iframe>
+    </center>
+    Phần tử $$\left ( p_1,p_2 \right )\in \operatorname{Hom}\left ( W,X \right )\times \operatorname{Hom}\left ( W,Y \right )$$ tương ứng với $$\operatorname{id}_W\in \operatorname{Hom}\left ( W,W \right )$$ là cặp các cấu xạ lược đồ được xác định bởi $$\varphi_1:A\rightarrow A\otimes_{C}B$$ và $$\varphi_2:B\rightarrow A\otimes_{C}B$$ trong bổ đề (2.3). Cuối cùng, ta thu được $$\left ( W,\left ( p_1,p_2 \right ) \right )$$ biểu diễn hàm tử $$G$$, điều phải chứng minh. $$\square$$ <br>
 
+Quay lại với việc chứng minh kết quả chính, định lý (2.2) và ta sẽ chia chứng minh thành nhiều bước như sau.<br>
+**Bước 1.** Cho các cấu xạ lược đồ $$q_1:X\rightarrow Z$$ và $$q_2:Y\rightarrow Z$$, nếu tích thớ $$\left ( X\times_{Z}Y,\left ( p_1,p_2 \right ) \right )$$ tồn tại, thì với $$U$$ là một tập mở bất kì trong $$X$$, $$\left ( p_1^{-1}\left ( U \right ),\left ( \widehat{p_1},p_2 \right ) \right )$$ là tích thớ của $$U$$ và $$Y$$ trên $$Z$$, trong đó $$\widehat{p_1}$$ là ánh xạ hạn chế của $$p_1$$ xuống $$p_1^{-1}\left ( U \right ).$$ <br>
+**Chứng minh.** 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 
