@@ -311,7 +311,7 @@ Nếu $$X_i\cap X_j\cap X_k\neq \varnothing$$ thì ta có
 <center>
     $$\varphi_{ij}\left ( U_{ij}\cap U_{ik} \right )=U_{ji}\cap U_{jk},$$
     </center>
-và trên $$U_{ij}\cap U_{ik}$$ ta thu được $$\varphi_{ik}=\varphi_{ij}\circ \varphi_{jk}$$. Nghĩa là, ta có thể dán $$X_i\times_{Z}Y$$ bởi $$\left \{ \varphi_{ij} \right \}$$ để thu được lược đồ $$X\times_{Z}Y$$. Hơn nữa, từ $$(8)$$ ta thu được các cấu xạ lược đồ $$p_1:X\times_{Z}Y\rightarrow X$$ và $$p_2:X\times_{Z}Y\rightarrow Y$$, trong đó hạn chế của các cấu xạ $$p_1$$ và $$p_2$ xuống $$X_i\times_{Z}Y$$ tương ứng là $$p_1^{\left ( i \right )}$$ và $$p_2^{\left ( i \right )}.$$<br>
+và trên $$U_{ij}\cap U_{ik}$$ ta thu được $$\varphi_{ik}=\varphi_{ij}\circ \varphi_{jk}$$. Nghĩa là, ta có thể dán $$X_i\times_{Z}Y$$ bởi $$\left \{ \varphi_{ij} \right \}$$ để thu được lược đồ $$X\times_{Z}Y$$. Hơn nữa, từ $$(8)$$ ta thu được các cấu xạ lược đồ $$p_1:X\times_{Z}Y\rightarrow X$$ và $$p_2:X\times_{Z}Y\rightarrow Y$$, trong đó hạn chế của các cấu xạ $$p_1$$ và $$p_2$$ xuống $$X_i\times_{Z}Y$$ tương ứng là $$p_1^{\left ( i \right )}$$ và $$p_2^{\left ( i \right )}$$. <br>
 
 Tiếp theo, ta sẽ chứng minh $$\left ( X\times_{Z}Y,\left ( q_1,q_2 \right ) \right )$$ là tích thớ. Cho các cấu xạ lược đồ $$f:T\rightarrow X$$ và $$g:T\rightarrow Y$$ thỏa mãn $$q_1\circ f=q_2\circ g$$; và ta đặt $$T_i=f^{-1}\left ( X_i \right ),i\in I, \left.f\right|_{T_i}=f_i$$ và $$\left.g\right|_{T_i}=g_i$$, thì thu được quan hệ $$q_1^{\left ( i \right )}\circ f_i=q_2\circ g_i$$. Do đó, tồn tại duy nhất cấu xạ $$h_i:T_i\rightarrow X_i\times_{Z}Y$$ thỏa mãn $$f_i=p_1^{\left ( i \right )}\circ h_i$$ và $$g_i=p_2^{\left ( i \right )}\circ h_i$$. Như suy luận trên, ta có thể dán các cấu xạ $$h_i$$ để thu được cấu xạ $$h:T\rightarrow X\times_{Z}Y$$ thỏa mãn $$f=p_1\circ h$$ và $$g=p_2\circ h$$. Lưu ý rằng, do tính duy nhất của các cấu xạ $$h_i$$ nên ta cũng thu được tính duy nhất của $$h$$, điều phải chứng minh. $$\square$$ <br>
 
@@ -322,11 +322,11 @@ Tiếp theo, ta giả sử $$Z$$ là lược đồ affine, trong khi $$X$$ và $
 
 Cuối cùng, ta xét $$X,Y$$ và $$Z$$ là các lược đồ bất kì. Ta chọn một phủ mở $$\left \{ Z_k \right \}_{k\in K}$$ của $$Z$$ bao gồm các lược đồ affine, khi đó ta đặt
 <center>
-    $$X_k=q_1^{-1}\left ( Z_k \right ),\enskip Y_k=q_2^{-1}\left ( Z_k \right )\enskip\text{và}\enskip q_1^{\left ( k \right )}=\left.q_1\right|_{X_k},\enskip q_2^{\left ( k \right )}=\left.q_2\right|_{X_k}.$$
+    $$X_k=q_1^{-1}\left ( Z_k \right ),\quad Y_k=q_2^{-1}\left ( Z_k \right )\quad\text{và}\quad q_1^{\left ( k \right )}=\left.q_1\right|_{X_k},\quad q_2^{\left ( k \right )}=\left.q_2\right|_{X_k}.$$
     </center>
 Khi đó, ta có tích thớ $$\left ( X_k\times_{Z}Y_k,\left ( p_1^{\left ( k \right )},p_2^{\left ( k \right )} \right ) \right )$$ của $$X_k$$ và $$Y_k$$ trên $$Z$$. Ta sẽ chứng minh tích thớ này chính là $$X_k\times_{Z}Y$$. Thật vậy, cho $$f:T\rightarrow X_k$$ và $$g:T\rightarrow Y$$ là các cấu xạ thỏa mãn $$q_1^{\left ( k \right )}\circ f=q_2\circ g$$; mặt khác, ta có đánh giá
 <center>
-    $$q_2\left ( g\left ( T \right ) \right )=q_1^{\left ( k \right )}\left ( f\left ( T \right ) \right )\subset q_1^{\left ( k \right )}\left ( X_k \right )\subset Z_k\enskip\text{dẫn đến}\enskip g\left ( T \right )\subset Y_k.$$
+    $$q_2\left ( g\left ( T \right ) \right )=q_1^{\left ( k \right )}\left ( f\left ( T \right ) \right )\subset q_1^{\left ( k \right )}\left ( X_k \right )\subset Z_k\quad\text{dẫn đến}\quad g\left ( T \right )\subset Y_k.$$
     </center>
 Từ đó, ta khẳng định rằng tồn tại duy nhất cấu xạ $$h:T\rightarrow X_k\times_{Z}Y_k$$ thỏa mãn $$f=p_1^{\left ( k \right )}\circ h$$ và $$g=p_2^{\left ( k \right )}\circ h$$, nghĩa là $$X_k\times_{Z}Y_k$$ chính là $$X_k\times_{Z}Y$$. Mà từ việc $$\left \{ X_k \right \}_{k\in K}$$ là một phủ mở của $$X$$, nên sử dụng (\textbf{Bước 2}) ta khẳng định được sự tồn tại của tích thớ $$\left ( X\times_{Z}Y,\left ( p_1,p_2 \right ) \right ).$$ $$\square$$ <br>
 
