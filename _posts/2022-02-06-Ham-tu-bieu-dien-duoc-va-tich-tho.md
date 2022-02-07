@@ -318,7 +318,7 @@ Tiếp theo, ta sẽ chứng minh $$\left ( X\times_{Z}Y,\left ( q_1,q_2 \right 
 **Bước 3.** Chứng minh định lý (2.2) như sau.<br>
 **Chứng minh.** Cho các cấu xạ lược đồ $$q_1:X\rightarrow Z$$ và $$q_2:Y\rightarrow Z$$. Giả sử $$Y$$ và $$Z$$ là các lược đồ affine, ta gọi $$\left \{ X_i \right \}_{i\in I}$$ là một phủ mở affine của $$X$$. Đặt $$q_1^{\left ( i \right )}=\left.q_1\right|_{X_i}:X_i\rightarrow Z$$ thì bởi bổ đề (2.3), ta thu được tích thớ $$\left ( X_i\times_{Z}Y,\left ( p_1^{\left ( i \right )},p_2^{\left ( i \right )} \right )\right )$$ tồn tại. Từ đó, sử dụng (\textbf{Bước 2}) ta khẳng định được sự tồn tại của tích thớ $$\left ( X\times_{Z}Y,\left ( p_1,p_2\right )\right ).$$ <br>
 
-Tiếp theo, ta giả sử $$Z$$ là lược đồ affine, trong khi $$X$$ và $$Y$$ là các lược đồ bất kì. Gọi $$\left \{ Y_j \right \}_{j\in J}$$ là một phủ mở affine của $$Y$$, tương tự như suy luận ở trên, ta thu được tích thớ $$\left ( X\times_{Z}Y_j,\left ( p_1^{\left ( j \right )},p_2^{\left ( j \right )} \right )\right )$$ tồn tại. Từ đó, sử dụng (\textbf{Bước 2}) ta khẳng định được sự tồn tại của tích thớ $$\left ( X\times_{Z}Y,\left ( p_1,p_2\right )\right ).$$ <br>
+Tiếp theo, ta giả sử $$Z$$ là lược đồ affine, trong khi $$X$$ và $$Y$$ là các lược đồ bất kì. Gọi $$\left \{ Y_j \right \}_{j\in J}$$ là một phủ mở affine của $$Y$$, tương tự như suy luận ở trên, ta thu được tích thớ $$\left ( X\times_{Z}Y_j,\left ( p_1^{\left ( j \right )},p_2^{\left ( j \right )} \right )\right )$$ tồn tại. Từ đó, sử dụng ($$\textbf{Bước 2}$$) ta khẳng định được sự tồn tại của tích thớ $$\left ( X\times_{Z}Y,\left ( p_1,p_2\right )\right ).$$ <br>
 
 Cuối cùng, ta xét $$X,Y$$ và $$Z$$ là các lược đồ bất kì. Ta chọn một phủ mở $$\left \{ Z_k \right \}_{k\in K}$$ của $$Z$$ bao gồm các lược đồ affine, khi đó ta đặt
 <center>
@@ -328,7 +328,7 @@ Khi đó, ta có tích thớ $$\left ( X_k\times_{Z}Y_k,\left ( p_1^{\left ( k \
 <center>
     $$q_2\left ( g\left ( T \right ) \right )=q_1^{\left ( k \right )}\left ( f\left ( T \right ) \right )\subset q_1^{\left ( k \right )}\left ( X_k \right )\subset Z_k\quad\text{dẫn đến}\quad g\left ( T \right )\subset Y_k.$$
     </center>
-Từ đó, ta khẳng định rằng tồn tại duy nhất cấu xạ $$h:T\rightarrow X_k\times_{Z}Y_k$$ thỏa mãn $$f=p_1^{\left ( k \right )}\circ h$$ và $$g=p_2^{\left ( k \right )}\circ h$$, nghĩa là $$X_k\times_{Z}Y_k$$ chính là $$X_k\times_{Z}Y$$. Mà từ việc $$\left \{ X_k \right \}_{k\in K}$$ là một phủ mở của $$X$$, nên sử dụng (\textbf{Bước 2}) ta khẳng định được sự tồn tại của tích thớ $$\left ( X\times_{Z}Y,\left ( p_1,p_2 \right ) \right ).$$ $$\square$$ <br>
+Từ đó, ta khẳng định rằng tồn tại duy nhất cấu xạ $$h:T\rightarrow X_k\times_{Z}Y_k$$ thỏa mãn $$f=p_1^{\left ( k \right )}\circ h$$ và $$g=p_2^{\left ( k \right )}\circ h$$, nghĩa là $$X_k\times_{Z}Y_k$$ chính là $$X_k\times_{Z}Y$$. Mà từ việc $$\left \{ X_k \right \}_{k\in K}$$ là một phủ mở của $$X$$, nên sử dụng ($$\textbf{Bước 2}$$) ta khẳng định được sự tồn tại của tích thớ $$\left ( X\times_{Z}Y,\left ( p_1,p_2 \right ) \right ).$$ $$\square$$ <br>
 
 Kết hợp cả 3 bước trong chứng minh ta khẳng định được sự tồn tại của tích thớ trong phạm trù lược đồ $$\textbf{Sch}$$, điều phải chứng minh. $$\blacksquare$$
 
