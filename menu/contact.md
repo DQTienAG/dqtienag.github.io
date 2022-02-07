@@ -27,3 +27,21 @@ permalink: /contact
 * **John William Scott Cassels and Albrecht Frhlich.** Algebraic Number Theory 2nd Edition.
 * **Jürgen Neukirch and Norbert Schappacher.** Algebraic Number Theory (Grundlehren der mathematischen Wissenschaften, 322) 1999th Edition.
 * **Pierre Samuel.** Algebraic Theory of Numbers: Translated from the French by Allan J. Silberger (Dover Books on Mathematics).
+* **Paul J. McCarthy.** Algebraic Extensions of Fields Paperback – April 1, 1991.
+* **David S. Dummit and Richard M. Foote.** Abstract Algebra, 3rd Edition 3rd Edition.
+
+### Homological Algebra
+
+* **Joseph J. Rotman.** An Introduction to Homological Algebra (Universitext) 2nd Edition.
+* **Charles A. Weibel.** An Introduction to Homological Algebra (Cambridge Studies in Advanced Mathematics, Series Number 38).
+
+### Algebraic Topology
+
+* **Raoul Bott and Loring W. Tu.** Differential Forms in Algebraic Topology (Graduate Texts in Mathematics Book 82) 1st Edition, Kindle Edition.
+* **Albrecht Dold.** Lectures on Algebraic Topology (Classics in Mathematics) 2nd ed. 1995 Edition.
+
+### Differential Geometry and Manifolds
+
+* **Loring W. Tu.** Differential Geometry: Connections, Curvature, and Characteristic Classes (Graduate Texts in Mathematics, 275) 1st ed. 2017 Edition.
+* **Loring W. Tu.** An Introduction to Manifolds (Universitext) 2nd ed. 2011 Edition.
+
