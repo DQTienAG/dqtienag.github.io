@@ -84,9 +84,9 @@ trong đó vế phải là tích theo nghĩa tập hợp. Tiếp theo, với m�
 </center>
 khi đó ta thu được $$F\left ( f \right )\in\operatorname{Hom}_{\mathbf{Set}}\left ( F\left ( Z_2 \right ),F\left ( Z_1 \right ) \right )$$, nghĩa là, $$F$$ là hàm tử phản biến. Khi hàm tử $$F$$ biểu diễn được, nghĩa là $$F\simeq h_W,$$ với $$W\in\operatorname{Ob}(\mathcal{C})$$ thì khi đó vật $$W$$ được xác định một cách duy nhất theo bổ đề (1.1) và được gọi là tích của $$X$$ và $$Y$$ trong phạm trù $$\mathcal{C}$$, kí hiệu bởi $$X\times Y$$.
 <blockquote>
-    <strong> Tính chất 1.2. </strong> Trong phạm trù $$\mathcal{C}$$, nếu tích $$X\times Y$$ tồn tại, khi đó ta có các tính chất sau đây
+    <strong> Tính chất 1.2. </strong> Trong phạm trù \(\mathcal{C}\), nếu tích \(X\times Y\) tồn tại, khi đó ta có các tính chất sau đây
     * Tồn tại các cấu xạ \(p_1\in\operatorname{Hom}_{\mathcal{C}}\left ( X\times Y,X \right )\) và \(p_2\in\operatorname{Hom}_{\mathcal{C}}\left ( X\times Y,Y \right )\) sao cho với các cấu xạ \(f\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,X \right )\) và \(g\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,Y \right )\) bất kì, tồn tại duy nhất cấu xạ \(h\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,X\times Y \right )\) thỏa mãn các quan hệ dưới đây
-    \[f=p_1\circ h\enskip\text{và}\enskip g=p_2\circ h.\]
+    \[f=p_1\circ h\quad\text{và}\quad g=p_2\circ h.\]
     Nghĩa là tồn tại duy nhất cấu xạ \(h\) sao cho sơ đồ sau đây giao hoán
     <center>
         <!-- https://q.uiver.app/?q=WzAsNCxbMSwwLCJaIl0sWzEsMSwiWFxcdGltZXMgWSJdLFswLDIsIlgiXSxbMiwyLCJZIl0sWzAsMSwiaCIsMV0sWzEsMiwicF8xIl0sWzEsMywicF8yIiwyXSxbMCwzLCJnIl0sWzAsMiwiZiIsMl1d -->
