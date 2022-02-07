@@ -45,11 +45,6 @@ permalink: /contact
 * **Loring W. Tu.** Differential Geometry: Connections, Curvature, and Characteristic Classes (Graduate Texts in Mathematics, 275) 1st ed. 2017 Edition.
 * **Loring W. Tu.** An Introduction to Manifolds (Universitext) 2nd ed. 2011 Edition.
 
----
-layout: page
-title: Một số sách văn học Việt Nam và nước ngoài
-permalink: /contact
----
 
 Đây là một số sách văn học Việt Nam và nước ngoài mình đã từng đọc, chủ yếu đọc lậu trên mạng :)
 
