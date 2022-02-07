@@ -218,7 +218,7 @@ a &\mapsto a\otimes 1
 b &\mapsto 1\otimes b 
 \end{align*}
     </blockquote>
-    **Chứng minh.** Trước tiên, ta sẽ nhắc lại mà không chứng minh một tính chất cơ bản, được phát biểu như sau<br>
+    **Chứng minh.** Trước tiên, ta sẽ nhắc lại mà không chứng minh một tính chất cơ bản, được phát biểu như sau
     <blockquote>
     <strong> Tính chất 2.4 </strong> Cho cấu xạ \(\left ( f,\theta \right )\) từ lược đồ \(\left ( Z,\mathcal{O}_Z \right )\) đến lược đồ affine \(\left ( \operatorname{Spec}R,\mathcal{O}_{\operatorname{Spec}R} \right )\), khi đó ta có đẳng cấu sau đây
 \[\operatorname{Hom}_{\mathbf{Sch}}\left ( Z,\operatorname{Spec}R \right )\simeq \operatorname{Hom}_{\mathbf{Ring}}\left ( R,\Gamma\left ( Z,\mathcal{O}_Z \right ) \right )\]
@@ -232,7 +232,7 @@ b &\mapsto 1\otimes b
     </center>
 Từ việc xem $$A$$ và $$B$$ như là các $$C$$-đại số thông qua các đồng cấu $$\nu_1$$ và $$\nu_2$$, ta thấy rằng từ việc $$\phi\circ \nu_1=\psi\circ \nu_2$$ dẫn đến $$\phi\left ( c\cdot 1_A \right )=\psi\left ( c\cdot 1_B \right )$$, trong đó $$c\in C$$ và $$1_A,1_B$$ tương ứng là các phần tử đơn vị của $$A$$ và $$B$$. Hơn nữa, ta cũng xem $$R$$ như là một $$C$$-đại số thông qua $$\phi\circ \nu_1=\psi\circ \nu_2$$, thì với $$a\in A,b\in B$$ và $$c\in C$$ ta thu được
 <center>
-    $$\phi\left ( c\cdot a \right )=c\cdot \phi\left ( a \right )\enskip\text{và}\enskip \psi\left ( c\cdot b \right )=c\cdot \psi\left ( b \right ).$$
+    $$\phi\left ( c\cdot a \right )=c\cdot \phi\left ( a \right )\quad\text{và}\quad \psi\left ( c\cdot b \right )=c\cdot \psi\left ( b \right ).$$
     </center>
 Từ đây, ta định nghĩa ánh xạ $$\Phi$$ như sau
 <center>
@@ -251,7 +251,7 @@ và, với $$a_1,a_2\in A$$ và $$b_1,b_2\in B$$ thì
     </center>
 Ngược lại, khi ánh xạ $$C$$-song tuyến tính $$\Phi$$ thỏa mãn $$(5)$$ và $$(6)$$, ta định nghĩa
 <center>
-    $$\phi\left ( a \right )=\Phi\left ( a,1_B \right )\enskip\text{và}\enskip \psi\left ( b \right )=\Phi\left ( 1_A,b \right ),$$
+    $$\phi\left ( a \right )=\Phi\left ( a,1_B \right )\quad\text{và}\quad \psi\left ( b \right )=\Phi\left ( 1_A,b \right ),$$
     </center>
 thì dễ kiểm tra $$\phi:A\rightarrow R$$ và $$\psi:B\rightarrow R$$ là các đồng cấu vành, và với $$a\in A,b\in B$$ ta thu được
 <center>
@@ -263,7 +263,7 @@ Hơn nữa, với $$a\in A,b\in B$$ và $$c\in C$$ ta thu được
     </center>
 điều này khẳng định $$\phi\circ \nu_1=\psi\circ \nu_2$$. Do đó, ta thu được
 <center>
-    $$G\left ( T \right )\simeq \left \{ \Phi:A\times B\longrightarrow R\mid \Phi\enskip\text{là ánh xạ \(C\)-song tuyến tính thỏa mãn}\ \text{\((1)\) và \((2)\)} \right \}.\tag{7}$$
+    $$G\left ( T \right )\simeq \left \{ \Phi:A\times B\longrightarrow R\mid \Phi\quad\text{là ánh xạ \(C\)-song tuyến tính thỏa mãn}\ \text{\((1)\) và \((2)\)} \right \}.\tag{7}$$
     </center>
 Bởi định nghĩa của tích tensor $$A\otimes_{C}B$$ của các $$C$$-đại số $$A$$ và $$B$$, vế phải của $$(7)$$ đẳng cấu theo nghĩa tập hợp với $$\operatorname{Hom}\left ( A\otimes_{C}B,R \right )$$. Nghĩa là, ta có đẳng cấu theo nghĩa tập hợp sau đây
 <center>
