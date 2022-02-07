@@ -40,7 +40,13 @@ dẫn đến $$\varphi_X\left ( F\left ( h \right )\left ( \psi \right ) \right 
     $$F\left ( X \right )=\left \{ F\left ( h \right )\left ( \psi \right )\mid h\in h_W\left ( W \right ) \right \}.$$
 </center>
 Do đó, nếu $F\simeq h_W$ đẳng cấu hàm tử thì $F$ được biểu diễn bởi $\left ( W,\psi \right )$, nghĩa là $F$ biểu diễn được. Từ đây, ta có định nghĩa cụ thể của hàm tử biểu diễn được, phát biểu như sau
-
+<blockquote>
+    <strong> Định nghĩa </strong>(Hàm tử biểu diễn được) Cho hàm tử phản biến \(F:\mathcal{C}\rightarrow \mathbf{Set}\), khi đó ta nói hàm tử \(F\) biểu diễn được nếu tồn tại một vật \(W\) trong phạm trù \(\mathcal{C}\), nghĩa là \(W\in\operatorname{Ob}(\mathcal{C})\) sao cho \(F\simeq h_W\), đẳng cấu theo nghĩa hàm tử và \(h_W\) là hàm tử cảm sinh bởi vật \(W\) trong \(\mathcal{C}\).
+</blockquote>
+Tiếp theo, để trả lời cho câu hỏi trên, ta sẽ đến với một bổ đề quan trọng của hàm tử biểu diễn được.
+<blockquote> 
+    <strong> Bổ đề 1.1. </strong> Khi một hàm tử phản biến \(F:\mathcal{C}\rightarrow \mathbf{Set}\) biểu diễn được, thì cặp \(\left ( W,\psi \right )\), trong đó \(W\in\operatorname{Ob}(\mathcal{C}),\psi\in F(W)\), được xác định một cách duy nhất, sai khác một đẳng cấu.
+</blockquote>
 
 
 
