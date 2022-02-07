@@ -47,6 +47,15 @@ Tiếp theo, để trả lời cho câu hỏi trên, ta sẽ đến với một 
 <blockquote> 
     <strong> Bổ đề 1.1. </strong> Khi một hàm tử phản biến \(F:\mathcal{C}\rightarrow \mathbf{Set}\) biểu diễn được, thì cặp \(\left ( W,\psi \right )\), trong đó \(W\in\operatorname{Ob}(\mathcal{C}),\psi\in F(W)\), được xác định một cách duy nhất, sai khác một đẳng cấu.
 </blockquote>
+**Chứng minh.** Ta giả sử có cặp $$\left ( \widetilde{W},\widetilde{\psi} \right )$$ biểu diễn hàm tử $F$, khi đó tồn tại các đẳng cấu $$\varphi:F\rightarrow h_W$$ và $$\widetilde{\varphi}:F\rightarrow h_{\widetilde{W}}$$ thỏa mãn $$\varphi_W\left ( \psi \right )=\operatorname{id}_W$$ và $$\widetilde{\varphi}_{\widetilde{W}}\left ( \widetilde{\psi} \right )=\operatorname{id}_{\widetilde{W}}$$. Từ đây, ta có các đẳng cấu theo nghĩa tập hợp như sau
+<center>
+    $$\varphi_{\widetilde{W}}:F\left ( \widetilde{W} \right )\overset{\sim }{\longrightarrow}h_W\left ( \widetilde{W} \right ),\enskip \widetilde{\varphi}_{W}:F\left ( W \right )\overset{\sim }{\longrightarrow}h_{\widetilde{W}}\left ( W \right ),$$
+</center>
+và ta xác định được các cấu xạ dưới đây
+<center>
+    $$\eta=\varphi_{\widetilde{W}}\left ( \widetilde{\psi} \right ):\widetilde{W}\longrightarrow W,\enskip \widetilde{\eta}=\widetilde{\varphi}_{W}\left ( \psi \right ):W\longrightarrow \widetilde{W}.$$
+</center>
+Ta sẽ chứng minh $$\eta\circ \widetilde{\eta}=\operatorname{id}_W$$ và $$\widetilde{\eta}\circ\eta =\operatorname{id}_{\widetilde{W}}$$, và ta cũng có $$F\left ( \eta \right )\left ( \psi \right )=\widetilde{\psi}$$ và $$F\left ( \widetilde{\eta} \right )\left ( \widetilde{\psi} \right )=\psi$$. Từ tính giao hoán của sơ đồ sau
 
 
 
