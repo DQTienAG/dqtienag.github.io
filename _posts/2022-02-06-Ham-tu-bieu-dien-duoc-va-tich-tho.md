@@ -292,7 +292,8 @@ và ta lại sử dụng tính chất (2.4), thì thu được ánh xạ cảm s
     <center>
     <!-- https://q.uiver.app/?q=WzAsNCxbMCwwLCJHKFRfMikiXSxbMSwwLCJcXG9wZXJhdG9ybmFtZXtIb219XFxsZWZ0ICggVF8yLFcgXFxyaWdodCApIl0sWzEsMSwiXFxvcGVyYXRvcm5hbWV7SG9tfVxcbGVmdCAoIFRfMSxXIFxccmlnaHQgKSJdLFswLDEsIkdUXzEpIl0sWzAsMSwiXFx2YXJwaGlfe1RfMn0iXSxbMSwyLCJoX1coaikiXSxbMCwzLCJHKGopIiwyXSxbMywyLCJcXHZhcnBoaV97VF8xfSIsMl1d -->
 <iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMCwwLCJHKFRfMikiXSxbMSwwLCJcXG9wZXJhdG9ybmFtZXtIb219XFxsZWZ0ICggVF8yLFcgXFxyaWdodCApIl0sWzEsMSwiXFxvcGVyYXRvcm5hbWV7SG9tfVxcbGVmdCAoIFRfMSxXIFxccmlnaHQgKSJdLFswLDEsIkdUXzEpIl0sWzAsMSwiXFx2YXJwaGlfe1RfMn0iXSxbMSwyLCJoX1coaikiXSxbMCwzLCJHKGopIiwyXSxbMywyLCJcXHZhcnBoaV97VF8xfSIsMl1d&embed" width="430" height="304" style="border-radius: 8px; border: none;"></iframe>
-    </center><br>
+    </center>
+    
     Phần tử $$\left ( p_1,p_2 \right )\in \operatorname{Hom}\left ( W,X \right )\times \operatorname{Hom}\left ( W,Y \right )$$ tương ứng với $$\operatorname{id}_W\in \operatorname{Hom}\left ( W,W \right )$$ là cặp các cấu xạ lược đồ được xác định bởi $$\varphi_1:A\rightarrow A\otimes_{C}B$$ và $$\varphi_2:B\rightarrow A\otimes_{C}B$$ trong bổ đề (2.3). Cuối cùng, ta thu được $$\left ( W,\left ( p_1,p_2 \right ) \right )$$ biểu diễn hàm tử $$G$$, điều phải chứng minh. $$\square$$ <br>
 
 Quay lại với việc chứng minh kết quả chính, định lý (2.2) và ta sẽ chia chứng minh thành nhiều bước như sau.<br>
