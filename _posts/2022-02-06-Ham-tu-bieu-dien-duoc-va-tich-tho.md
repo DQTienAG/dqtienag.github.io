@@ -214,9 +214,8 @@ a &\mapsto a\otimes 1
     \varphi_2:B&\rightarrow A\otimes_{C}B\\ 
 b &\mapsto 1\otimes b 
 \end{align*}
-    </blockquote>
-    **Chứng minh bổ đề.** Trước tiên, ta sẽ nhắc lại mà không chứng minh một tính chất cơ bản, được phát biểu như sau
-    
+    </blockquote><br>
+    **Chứng minh.** Trước tiên, ta sẽ nhắc lại mà không chứng minh một tính chất cơ bản, được phát biểu như sau
 <blockquote>
     <strong> Tính chất 2.4. </strong> Cho cấu xạ \(\left ( f,\theta \right )\) từ lược đồ \(\left ( Z,\mathcal{O}_Z \right )\) đến lược đồ affine \(\left ( \operatorname{Spec}R,\mathcal{O}_{\operatorname{Spec}R} \right )\), khi đó ta có đẳng cấu sau đây
 \[\operatorname{Hom}_{\mathbf{Sch}}\left ( Z,\operatorname{Spec}R \right )\simeq \operatorname{Hom}_{\mathbf{Ring}}\left ( R,\Gamma\left ( Z,\mathcal{O}_Z \right ) \right ).\]
