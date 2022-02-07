@@ -175,7 +175,7 @@ $$\left ( \Rightarrow  \right )$$ Giả sử tích thớ $$X\times_{Z}Y$$ tồn 
 Từ sơ đồ sau đây giao hoán
  <!-- https://q.uiver.app/?q=WzAsNCxbMCwwLCJHKFcpIl0sWzEsMCwiaF9XKFcpIl0sWzAsMSwiRyhUKSJdLFsxLDEsImhfVyhUKSJdLFswLDFdLFswLDIsIkcoaCkiLDJdLFsxLDMsImhfVyhoKSJdLFsyLDNdXQ== -->
 <iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMCwwLCJHKFcpIl0sWzEsMCwiaF9XKFcpIl0sWzAsMSwiRyhUKSJdLFsxLDEsImhfVyhUKSJdLFswLDFdLFswLDIsIkcoaCkiLDJdLFsxLDMsImhfVyhoKSJdLFsyLDNdXQ==&embed" width="361" height="304" style="border-radius: 8px; border: none;"></iframe><br>
-    dẫn đến $$h\in h_W\left ( h \right )$$, điều này tương ứng với việc $$\left ( p_1\circ h,p_2\circ h \right )\in G\left ( T \right )$$. Mặt khác, $$h$$ tương ứng với $$\left ( f,g \right )\in G\left ( T \right )$$, nên từ đây ta thu được $$\left ( f,g \right )=\left ( p_1\circ h,p_2\circ h \right )$$, nghĩa là sơ đồ $$(4)$$ giao hoán. Do đó, các tính chất trên là điều kiện cần để tích thớ tồn tại.<br>
+    dẫn đến $$h\in h_W\left ( h \right )$$, điều này tương ứng với việc $$\left ( p_1\circ h,p_2\circ h \right )\in G\left ( T \right )$$. Mặt khác, $$h$$ tương ứng với $$\left ( f,g \right )\in G\left ( T \right )$$, nên từ đây ta thu được $$\left ( f,g \right )=\left ( p_1\circ h,p_2\circ h \right )$$, nghĩa là sơ đồ $$(4)$$ giao hoán. Do đó, các tính chất trên là điều kiện cần để tích thớ tồn tại.<br><br>
     $$\left ( \Leftarrow  \right )$$ Giả sử tồn tại cặp $$\left ( W,\left ( p_1,p_2 \right ) \right )$$ thỏa mãn các tính chất trên (điều kiện cần). Khi đó, với $$T$$ là một vật trong phạm trù $$\mathcal{C}$$, nghĩa là $$T\in\operatorname{Ob}(\mathcal{C})$$, ta định nghĩa ánh xạ $$\varphi_T$$ giữa các tập hợp như sau
 <center>
     $$\begin{align*}
@@ -183,7 +183,6 @@ Từ sơ đồ sau đây giao hoán
 a &\mapsto \left ( p_1\circ a,p_2\circ a \right ),
 \end{align*}$$
     </center>
-    <!-- https://q.uiver.app/?q=WzAsNCxbMSwwLCJUIl0sWzEsMSwiVyJdLFswLDIsIlgiXSxbMiwyLCJZIl0sWzAsMSwiYSIsMV0sWzEsMiwicF8xIl0sWzEsMywicF8yIiwyXSxbMCwzLCJwXzJcXGNpcmMgYSJdLFswLDIsInBfMVxcY2lyYyBhIiwyXV0= -->
 <iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMSwwLCJUIl0sWzEsMSwiVyJdLFswLDIsIlgiXSxbMiwyLCJZIl0sWzAsMSwiYSIsMV0sWzEsMiwicF8xIl0sWzEsMywicF8yIiwyXSxbMCwzLCJwXzJcXGNpcmMgYSJdLFswLDIsInBfMVxcY2lyYyBhIiwyXV0=&embed" width="432" height="432" style="border-radius: 8px; border: none;"></iframe><br>
 Ta sẽ chứng minh rằng $$\varphi_T$$ là song ánh. Ta xét cặp cấu xạ $$\left ( f,g \right )\in G(T)$$ bất kì, sử dụng điều kiện cần khẳng định rằng tồn tại duy nhất cấu xạ $$h\in h_W\left ( T \right )$$ thỏa mãn
 <center>
@@ -214,10 +213,11 @@ a &\mapsto a\otimes 1
 b &\mapsto 1\otimes b 
 \end{align*}
     </blockquote>
-    **Chứng minh bổ đề.** Trước tiên, ta sẽ nhắc lại mà không chứng minh một tính chất (2.4) cơ bản, được phát biểu như sau: cho cấu xạ $$\left ( f,\theta \right )$$ từ lược đồ $$\left ( Z,\mathcal{O}_Z \right )$$ đến lược đồ affine $$\left ( \operatorname{Spec}R,\mathcal{O}_{\operatorname{Spec}R} \right )$$, khi đó ta có đẳng cấu sau đây
-<center>
-    $$\operatorname{Hom}_{\mathbf{Sch}}\left ( Z,\operatorname{Spec}R \right )\simeq \operatorname{Hom}_{\mathbf{Ring}}\left ( R,\Gamma\left ( Z,\mathcal{O}_Z \right ) \right ).$$
-</center><br>
+    **Chứng minh bổ đề.** Trước tiên, ta sẽ nhắc lại mà không chứng minh một tính chất (2.4) cơ bản, được phát biểu như sau: 
+<blockquote>
+    <strong> Tính chất 2.4. </strong> Cho cấu xạ \(\left ( f,\theta \right )\) từ lược đồ \(\left ( Z,\mathcal{O}_Z \right )\) đến lược đồ affine \(\left ( \operatorname{Spec}R,\mathcal{O}_{\operatorname{Spec}R} \right )\), khi đó ta có đẳng cấu sau đây
+\[\operatorname{Hom}_{\mathbf{Sch}}\left ( Z,\operatorname{Spec}R \right )\simeq \operatorname{Hom}_{\mathbf{Ring}}\left ( R,\Gamma\left ( Z,\mathcal{O}_Z \right ) \right )\]
+</blockquote>
     Sử dụng tính chất (2.4), các cấu xạ lược đồ $$f:T\rightarrow X$$ và $$g:T\rightarrow Y$$ được xác định một cách duy nhất bởi các đồng cấu vành tương ứng là $$\phi:A\rightarrow \Gamma\left ( T,\mathcal{O}_T \right )$$ và $$\psi:B\rightarrow \Gamma\left ( T,\mathcal{O}_T \right )$$, và để cho gọn ta đặt $$R=\Gamma\left ( T,\mathcal{O}_T \right )$$. Tương tự, ta cũng có các cấu xạ lược đồ $$q_1:X\rightarrow Z$$ và $$q_2:Y\rightarrow Z$$ được xác định một cách duy nhất bởi các đồng cấu vành tương ứng là $$\nu_1:C\rightarrow A$$ và $$\nu_2:C\rightarrow B$$, khi đó $$A$$ và $$B$$ là các $$C$$-đại số thông qua các đồng cấu $$\nu_1$$ và $$\nu_2$$. Hơn nữa, từ việc $$q_1\circ f=q_2\circ g$$, dẫn đến các đồng cấu $$\phi\circ \nu_1:C\rightarrow R$$ và $$\psi\circ \nu_2:C\rightarrow R$$ trùng nhau. Do đó, hàm tử $$G$$ trong $$(1)$$ có thể được viết lại như sau
 <center>
     $$\begin{align*}
