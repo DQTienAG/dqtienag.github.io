@@ -286,9 +286,9 @@ và ta lại sử dụng tính chất (2.4), thì thu được ánh xạ cảm s
     $$\operatorname{Hom}\left ( T_2,\operatorname{Spec}\left ( A\otimes_{C}B \right ) \right )\rightarrow \operatorname{Hom}\left ( T_1,\operatorname{Spec}\left ( A\otimes_{C}B \right ) \right ).$$
     </center>
 Để cho gọn thì ta đặt $$W=\operatorname{Spec}\left ( A\otimes_{C}B \right )$$, thì sơ đồ sau đây giao hoán
-    <center>
-<iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMCwwLCJHKFRfMikiXSxbMSwwLCJcXG9wZXJhdG9ybmFtZXtIb219XFxsZWZ0ICggVF8yLFcgXFxyaWdodCApIl0sWzEsMSwiXFxvcGVyYXRvcm5hbWV7SG9tfVxcbGVmdCAoIFRfMSxXIFxccmlnaHQgKSJdLFswLDEsIkcoVF8xKSJdLFswLDEsIlxcdmFycGhpX3tUXzJ9Il0sWzEsMiwiaF9XKGopIl0sWzAsMywiRyhqKSIsMl0sWzMsMiwiXFx2YXJwaGlfe1RfMX0iLDJdXQ==&embed" width="430" height="304" style="border-radius: 8px; border: none;"></iframe>
-    </center>
+<p align="center">
+  <iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMCwwLCJHKFRfMikiXSxbMSwwLCJcXG9wZXJhdG9ybmFtZXtIb219XFxsZWZ0ICggVF8yLFcgXFxyaWdodCApIl0sWzEsMSwiXFxvcGVyYXRvcm5hbWV7SG9tfVxcbGVmdCAoIFRfMSxXIFxccmlnaHQgKSJdLFswLDEsIkcoVF8xKSJdLFswLDEsIlxcdmFycGhpX3tUXzJ9Il0sWzEsMiwiaF9XKGopIl0sWzAsMywiRyhqKSIsMl0sWzMsMiwiXFx2YXJwaGlfe1RfMX0iLDJdXQ==&embed" width="430" height="304" style="border-radius: 8px; border: none;"></iframe>
+</p>
 
 Phần tử $$\left ( p_1,p_2 \right )\in \operatorname{Hom}\left ( W,X \right )\times \operatorname{Hom}\left ( W,Y \right )$$ tương ứng với $$\operatorname{id}_W\in \operatorname{Hom}\left ( W,W \right )$$ là cặp các cấu xạ lược đồ được xác định bởi $$\varphi_1:A\rightarrow A\otimes_{C}B$$ và $$\varphi_2:B\rightarrow A\otimes_{C}B$$ trong bổ đề (2.3). Cuối cùng, ta thu được $$\left ( W,\left ( p_1,p_2 \right ) \right )$$ biểu diễn hàm tử $$G$$, điều phải chứng minh. $$\square$$ <br>
 
