@@ -218,10 +218,10 @@ a &\mapsto a\otimes 1
 b &\mapsto 1\otimes b 
 \end{align*}
     </blockquote>
-    **Chứng minh.** Trước tiên, ta sẽ nhắc lại mà không chứng minh một tính chất cơ bản, được phát biểu như sau<br>
+    **Chứng minh bổ đề.** Trước tiên, ta sẽ nhắc lại mà không chứng minh một tính chất cơ bản, được phát biểu như sau<br>
     **Tính chất 2.4.** Cho cấu xạ $$\left ( f,\theta \right )$$ từ lược đồ $$\left ( Z,\mathcal{O}_Z \right )$$ đến lược đồ affine $$\left ( \operatorname{Spec}R,\mathcal{O}_{\operatorname{Spec}R} \right )$$, khi đó ta có đẳng cấu sau đây
 <center>
-    $$\operatorname{Hom}_{\mathbf{Sch}}\left ( Z,\operatorname{Spec}R \right )\simeq \operatorname{Hom}_{\mathbf{Ring}}\left ( R,\Gamma\left ( Z,\mathcal{O}_Z \right ) \right )$$
+    $$\operatorname{Hom}_{\mathbf{Sch}}\left ( Z,\operatorname{Spec}R \right )\simeq \operatorname{Hom}_{\mathbf{Ring}}\left ( R,\Gamma\left ( Z,\mathcal{O}_Z \right ) \right ).$$
     </center>
     Sử dụng tính chất (2.4), các cấu xạ lược đồ $$f:T\rightarrow X$$ và $$g:T\rightarrow Y$$ được xác định một cách duy nhất bởi các đồng cấu vành tương ứng là $$\phi:A\rightarrow \Gamma\left ( T,\mathcal{O}_T \right )$$ và $$\psi:B\rightarrow \Gamma\left ( T,\mathcal{O}_T \right )$$, và để cho gọn ta đặt $$R=\Gamma\left ( T,\mathcal{O}_T \right )$$. Tương tự, ta cũng có các cấu xạ lược đồ $$q_1:X\rightarrow Z$$ và $$q_2:Y\rightarrow Z$$ được xác định một cách duy nhất bởi các đồng cấu vành tương ứng là $$\nu_1:C\rightarrow A$$ và $$\nu_2:C\rightarrow B$$, khi đó $$A$$ và $$B$$ là các $$C$$-đại số thông qua các đồng cấu $$\nu_1$$ và $$\nu_2$$. Hơn nữa, từ việc $$q_1\circ f=q_2\circ g$$, dẫn đến các đồng cấu $$\phi\circ \nu_1:C\rightarrow R$$ và $$\psi\circ \nu_2:C\rightarrow R$$ trùng nhau. Do đó, hàm tử $$G$$ trong $$(1)$$ có thể được viết lại như sau
 <center>
