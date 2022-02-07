@@ -9,7 +9,10 @@ permalink: /contact
 ### Algebraic Geometry
 
 * **Robin Hartshorne.** Algebraic Geometry, (Graduate Texts in Mathematics, 52) 1st ed. 1977. Corr. 8th printing 1997 Edition.
-* **Kenji Ueno.** Algebraic Geometry 1,2,3 (Translations of Mathematical Monographs) (Vol 1) (Iwanami Series in Modern Mathematics) UK ed. Edition. 
+* **Kenji Ueno.** Algebraic Geometry 1,2,3 (Translations of Mathematical Monographs) (Vol 1) (Iwanami Series in Modern Mathematics) UK ed. Edition.
+* **Rick Miranda.** Algebraic Curves and Riemann Surfaces (Graduate Studies in Mathematics, Vol 5) UK ed. Edition.
+* **John Christian Ottem.** Introduction to Schemes (2021).
+* **Steven Dale Cutkosky.** Introduction to Algebraic Geometry (Graduate Studies in Mathematics).
 
 ### Commutative Algebra
 
@@ -29,6 +32,7 @@ permalink: /contact
 * **Pierre Samuel.** Algebraic Theory of Numbers: Translated from the French by Allan J. Silberger (Dover Books on Mathematics).
 * **Paul J. McCarthy.** Algebraic Extensions of Fields Paperback – April 1, 1991.
 * **David S. Dummit and Richard M. Foote.** Abstract Algebra, 3rd Edition 3rd Edition.
+* **Patrick Morandi.** Field and Galois Theory (Graduate Texts in Mathematics, 167) 1996th Edition.
 
 ### Homological Algebra
 
