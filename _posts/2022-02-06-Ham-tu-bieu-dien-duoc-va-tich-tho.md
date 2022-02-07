@@ -83,8 +83,50 @@ trong đó vế phải là tích theo nghĩa tập hợp. Tiếp theo, với m�
     $$F\left ( f \right )\left ( \left ( a,b \right ) \right )=\left ( f\circ a,f\circ b \right )\in F\left ( Z_1 \right ),$$
 </center>
 khi đó ta thu được $$F\left ( f \right )\in\operatorname{Hom}_{\mathbf{Set}}\left ( F\left ( Z_2 \right ),F\left ( Z_1 \right ) \right )$$, nghĩa là, $$F$$ là hàm tử phản biến. Khi hàm tử $$F$$ biểu diễn được, nghĩa là $$F\simeq h_W,$$ với $$W\in\operatorname{Ob}(\mathcal{C})$$ thì khi đó vật $$W$$ được xác định một cách duy nhất theo bổ đề (1.1) và được gọi là tích của $$X$$ và $$Y$$ trong phạm trù $$\mathcal{C}$$, kí hiệu bởi $$X\times Y$$.
+<blockquote>
+    <strong> Tính chất 1.2. </strong> Trong phạm trù $$\mathcal{C}$$, nếu tích $$X\times Y$$ tồn tại, khi đó ta có các tính chất sau đây
+    * Tồn tại các cấu xạ $$p_1\in\operatorname{Hom}_{\mathcal{C}}\left ( X\times Y,X \right )$$ và $$p_2\in\operatorname{Hom}_{\mathcal{C}}\left ( X\times Y,Y \right )$$ sao cho với các cấu xạ $$f\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,X \right )$$ và $$g\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,Y \right )$$ bất kì, tồn tại duy nhất cấu xạ $$h\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,X\times Y \right )$$ thỏa mãn các quan hệ dưới đây
+    <center>
+        $$f=p_1\circ h\enskip\text{và}\enskip g=p_2\circ h.$$
+    </center>
+    Nghĩa là tồn tại duy nhất cấu xạ $$$h$$ sao cho sơ đồ sau đây giao hoán
+    <center>
+        <!-- https://q.uiver.app/?q=WzAsNCxbMSwwLCJaIl0sWzEsMSwiWFxcdGltZXMgWSJdLFswLDIsIlgiXSxbMiwyLCJZIl0sWzAsMSwiaCIsMV0sWzEsMiwicF8xIl0sWzEsMywicF8yIiwyXSxbMCwzLCJnIl0sWzAsMiwiZiIsMl1d -->
+<iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMSwwLCJaIl0sWzEsMSwiWFxcdGltZXMgWSJdLFswLDIsIlgiXSxbMiwyLCJZIl0sWzAsMSwiaCIsMV0sWzEsMiwicF8xIl0sWzEsMywicF8yIiwyXSxbMCwzLCJnIl0sWzAsMiwiZiIsMl1d&embed" width="460" height="432" style="border-radius: 8px; border: none;"></iframe>
+    </center>
+    * Ngược lại, nếu vật $$X\times Y$$ thỏa mãn các tính chất của điều kiện cần, thì $$\left ( X\times Y,\left ( p_1,p_2 \right ) \right )$$ hay đơn giản là $$X\times Y$$ là tích của các vật $$X$$ và $$Y$$ trong phạm trù $$\mathcal{C}$$.
+</blockquote>
+**Chứng minh.** Nếu $$F\simeq h_{X\times Y}$$ thì
+<center>
+    $$F\left ( X\times Y \right )=\operatorname{Hom}_{\mathcal{C}}\left ( X\times Y,X \right )\times \operatorname{Hom}_{\mathcal{C}}\left ( X\times Y,Y \right ),$$
+</center>
+và 
+<center>
+    $$h_{X\times Y}\left ( X\times Y \right )=\operatorname{Hom}_{\mathcal{C}}\left ( X\times Y,X\times Y \right ).$$
+    </center>
+Do đó, tồn tại cặp cấu xạ $$\left ( p_1,p_2 \right )\in F\left ( X\times Y \right )$$ tương ứng với $$\operatorname{id}_{X\times Y}$$. Tiếp theo, ta sẽ chỉ ra các cấu xạ $$p_1\in\operatorname{Hom}_{\mathcal{C}}\left ( X\times Y,X \right )$$ và $$p_2\in\operatorname{Hom}_{\mathcal{C}}\left ( X\times Y,Y \right )$$ thỏa mãn các tính chất của điều kiện cần. Với vật $$Z$$ trong phạm trù $$\mathcal{C}$$, nghĩa là $$Z\in\mathcal{C}$$ cùng các cấu xạ $$$f\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,X \right )$$ và $$g\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,Y \right )$$, ta có thể xem như $$\left ( f,g \right )\in F\left ( Z \right )$$. Mà từ việc $$F\left ( Z \right )\simeq h_{X\times Y}\left ( Z \right )$$, nên tồn tại duy nhất $$h\in h_{X\times Y}\left ( Z \right )=\operatorname{Hom}_{\mathcal{C}}\left ( Z,X\times Y \right )$$ tương ứng với cặp các cấu xạ $$\left ( f,g \right )$$. Từ đây, ta thu được $$F\left ( h \right )\in \operatorname{Hom}_{\mathbf{Set}}\left ( F\left ( X\times Y \right ),F\left ( Z \right ) \right )$$ tương ứng với $$h_{X\times Y}\left ( h \right )\in \operatorname{Hom}_{\mathbf{Set}}\left ( h_{X\times Y}\left ( X\times Y \right ),h_{X\times Y}\left ( Z \right ) \right )$$. Mặt khác, ta có quan hệ sau đây
+<center>
+    $$\begin{align*}
+    F\left ( h \right )\left ( \left ( p_1,p_2 \right ) \right )&=\left ( p_1\circ h,p_2\circ h \right )\\
+h_{X\times Y}\left ( h \right )\left ( \operatorname{id}_{X\times Y} \right )&=h.
+\end{align*}$$
+    </center>
+Từ việc cặp các cấu xạ $$\left ( f,g \right )$$ tương ứng với $$h\in h_{X\times Y}\left ( Z \right )$$, nên ta phải có $$\left ( f,g \right )=\left ( p_1\circ h,p_2\circ h \right )$$. Nghĩa là, sơ đồ $$(1)$$ giao hoán.<br>
 
+Ngược lại, giả sử $$\left ( X\times Y,\left ( p_1,p_2 \right ) \right )$$ thỏa mãn các tính chất của điều kiện cần. Với vật $$Z$$ trong phạm trù $$\mathcal{C}$$, nghĩa là $$Z\in\operatorname{Ob}(\mathcal{C})$$, ta định nghĩa ánh xạ $$\varphi_Z$$ như sau
+<center>
+    $$\begin{align*}
+    \varphi_Z:h_{X\times Y}\left ( Z \right )=\operatorname{Hom}_{\mathcal{C}}\left ( Z,X\times Y \right )&\longrightarrow F\left ( Z \right )=\operatorname{Hom}_{\mathcal{C}}\left ( Z,X \right )\times \operatorname{Hom}_{\mathcal{C}}\left ( Z,Y \right )\\
+h &\mapsto \left ( p_1\circ h,p_2\circ h \right )
+\end{align*}$$
+    </center>
+Với cặp cấu xạ $$\left ( f,g \right )\in F\left ( Z \right )$$, thì ta sử dụng các tính chất của điều kiện cần thì khẳng định sự tồn tại của cấu xạ $$h\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,X\times Y \right )$$ thỏa mãn $$f=p_1\circ h$$ và $$g=p_2\circ h$$, do đó $$\varphi_Z$$ là ánh xạ toàn ánh. Mặt khác, nếu ta có đẳng thức
+<center>
+    $$\left ( p_1\circ h,p_2\circ h \right )=\left ( p_1\circ h^{\prime},p_2\circ h^{\prime} \right ),$$
+    </center>
+trong đó $$h,h^{\prime}\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,X\times Y \right )$$, từ đây ta sử dụng các tính chất trong điều kiện cần thì khẳng định sự tồn tại duy nhất của cấu xạ $$\widetilde{h}\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,X\times Y \right )$$ tương ứng với $$\left ( p_1\circ h,p_2\circ h \right )\in F\left ( Z \right )$$. Nên từ đây, ta thu được $$\widetilde{h}=h=h^{\prime}$$, nghĩa là $$\varphi_Z$$ là ánh xạ toàn ánh.<br>
 
+Hơn nữa, với $$a\in\operatorname{Hom}_{\mathcal{C}}\left ( Z_1,Z_2 \right )$$, ta có sơ đồ sau đây giao hoán
 
 
 
