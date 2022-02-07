@@ -149,7 +149,31 @@ thì dẫn đến $$G\left ( h \right )\left ( \left ( a,b \right ) \right )\in 
 
 Như trong tính chất (1.2), ta cũng có tính chất tương tự như sau
 <blockquote>
-    <strong> Tính chất 2.1. </strong> 
+    <strong> Tính chất 2.1. </strong> Cho \(q_1:X\rightarrow Z\) và \(q_2:Y\rightarrow Z\) là các cấu xạ trong phạm trù \(\mathcal{C}\), khi đó tích thớ của \(X\) và \(Y\) trên \(Z\) tồn tại khi và chỉ khi tồn tại một vật \(W\in\operatorname{Ob}(\mathcal{C})\) và các cấu xạ \(p_1:W\rightarrow X\) và \(p_2:W\rightarrow Y\) thỏa mãn các tính chất sau đây<br>
+    \(\bullet\) Sơ đồ sau đây giao hoán
+    <center>
+        <!-- https://q.uiver.app/?q=WzAsNCxbMSwwLCJXIl0sWzAsMSwiWCJdLFsxLDIsIloiXSxbMiwxLCJZIl0sWzAsMSwicF8xIiwyXSxbMSwyLCJxXzEiLDJdLFswLDMsInBfMiJdLFszLDIsInFfMiJdXQ== -->
+<iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMSwwLCJXIl0sWzAsMSwiWCJdLFsxLDIsIloiXSxbMiwxLCJZIl0sWzAsMSwicF8xIiwyXSxbMSwyLCJxXzEiLDJdLFswLDMsInBfMiJdLFszLDIsInFfMiJdXQ==&embed" width="432" height="432" style="border-radius: 8px; border: none;"></iframe>
+    </center>
+    \(\bullet\) Với mỗi sơ đồ giao hoán, được xác định bởi
+    <center>
+        <!-- https://q.uiver.app/?q=WzAsNCxbMSwwLCJUIl0sWzAsMSwiWCJdLFsxLDIsIloiXSxbMiwxLCJZIl0sWzAsMSwiZiIsMl0sWzEsMiwicV8xIiwyXSxbMCwzLCJnIl0sWzMsMiwicV8yIl1d -->
+<iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMSwwLCJUIl0sWzAsMSwiWCJdLFsxLDIsIloiXSxbMiwxLCJZIl0sWzAsMSwiZiIsMl0sWzEsMiwicV8xIiwyXSxbMCwzLCJnIl0sWzMsMiwicV8yIl1d&embed" width="432" height="432" style="border-radius: 8px; border: none;"></iframe>
+    </center>
+    thì tồn tại duy nhất cấu xạ \(h:T\rightarrow W\) sao cho sơ đồ sau đây giao hoán
+    <center>
+        <!-- https://q.uiver.app/?q=WzAsNCxbMSwwLCJUIl0sWzEsMSwiVyJdLFswLDIsIlgiXSxbMiwyLCJZIl0sWzAsMV0sWzEsMiwicF8xIl0sWzEsMywicF8yIiwyXSxbMCwzLCJnIl0sWzAsMiwiZiIsMl1d -->
+<iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMSwwLCJUIl0sWzEsMSwiVyJdLFswLDIsIlgiXSxbMiwyLCJZIl0sWzAsMV0sWzEsMiwicF8xIl0sWzEsMywicF8yIiwyXSxbMCwzLCJnIl0sWzAsMiwiZiIsMl1d&embed" width="432" height="432" style="border-radius: 8px; border: none;"></iframe>
+    </center>
+</blockquote>
+**Chứng minh.** Ta chứng minh hai chiều của tính chất như sau<br>
+
+$$\left ( \Rightarrow  \right )$$ Giả sử tích thớ $$X\times_{Z}Y$$ tồn tại, khi đó ta đặt $$W=X\times_{Z}Y$$ và xét $$\left ( p_1,p_2 \right )\in G\left ( W \right )$$, trong đó $$p_1:W\rightarrow X$$ và $$p_2:W\rightarrow Y$$ và là phần tử tương ứng với $$\operatorname{id}_W\in h_W(W)$$, thì từ định nghĩa $$(1)$$ ta thu được sơ đồ $$(2)$$ giao hoán. Từ giả thiết về tính giao hoán của $$(3)$$ dẫn đến $$\left ( f,g \right )\in G\left ( T \right )$$, và hơn thế nữa, phép đẳng cấu $$G\left ( T \right )\simeq h_W\left ( T \right )$$ theo nghĩa tập hợp, dẫn đến tồn tại duy nhất cấu xạ $$h:T\rightarrow W$$. Khi đó, $$\left ( p_1\circ h,p_2\circ h \right )\in G\left ( T \right )$$ và từ $$(1)$$ ta thu được
+<center>
+    $$\left ( p_1\circ h,p_2\circ h \right )=G\left ( g \right )\left ( \left ( p_1,p_2 \right ) \right ).$$
+    </center>
+Từ sơ đồ sau đây giao hoán
+        
 
 
 
