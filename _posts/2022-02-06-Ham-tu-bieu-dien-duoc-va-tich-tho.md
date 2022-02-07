@@ -94,7 +94,7 @@ khi đó ta thu được $$F\left ( f \right )\in\operatorname{Hom}_{\mathbf{Set
 <iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMSwwLCJaIl0sWzEsMSwiWFxcdGltZXMgWSJdLFswLDIsIlgiXSxbMiwyLCJZIl0sWzAsMSwiaCIsMV0sWzEsMiwicF8xIl0sWzEsMywicF8yIiwyXSxbMCwzLCJnIl0sWzAsMiwiZiIsMl1d&embed" width="460" height="432" style="border-radius: 8px; border: none;"></iframe>
     </center>
     \item Ngược lại, nếu vật \(X\times Y\) thỏa mãn các tính chất của điều kiện cần, thì \(\left ( X\times Y,\left ( p_1,p_2 \right ) \right )\) hay đơn giản là \(X\times Y\) là tích của các vật \(X\) và \(Y\) trong phạm trù \(\mathcal{C}\).
-    \end{itemiza}
+    \end{itemize}
 </blockquote>
 **Chứng minh.** Nếu $$F\simeq h_{X\times Y}$$ thì
 <center>
@@ -127,6 +127,15 @@ Với cặp cấu xạ $$\left ( f,g \right )\in F\left ( Z \right )$$, thì ta 
 trong đó $$h,h^{\prime}\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,X\times Y \right )$$, từ đây ta sử dụng các tính chất trong điều kiện cần thì khẳng định sự tồn tại duy nhất của cấu xạ $$\widetilde{h}\in\operatorname{Hom}_{\mathcal{C}}\left ( Z,X\times Y \right )$$ tương ứng với $$\left ( p_1\circ h,p_2\circ h \right )\in F\left ( Z \right )$$. Nên từ đây, ta thu được $$\widetilde{h}=h=h^{\prime}$$, nghĩa là $$\varphi_Z$$ là ánh xạ toàn ánh.<br>
 
 Hơn nữa, với $$a\in\operatorname{Hom}_{\mathcal{C}}\left ( Z_1,Z_2 \right )$$, ta có sơ đồ sau đây giao hoán
+<center>
+    <!-- https://q.uiver.app/?q=WzAsNCxbMCwwLCJoX3tYXFx0aW1lcyBZfShaXzIpIl0sWzEsMCwiRlxcbGVmdCAoIFpfMiBcXHJpZ2h0ICkiXSxbMCwxLCJoX3tYXFx0aW1lcyBZfShaXzEpIl0sWzEsMSwiRlxcbGVmdCAoIFpfMSBcXHJpZ2h0ICkiXSxbMCwxLCJcXHZhcnBoaV97Wl8yfSJdLFswLDIsImhfe1hcXHRpbWVzIFl9KGEpIiwyXSxbMSwzLCJGXFxsZWZ0ICggYSBcXHJpZ2h0ICkiXSxbMiwzLCJcXHZhcnBoaV97Wl8xfSIsMl1d -->
+<iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMCwwLCJoX3tYXFx0aW1lcyBZfShaXzIpIl0sWzEsMCwiRlxcbGVmdCAoIFpfMiBcXHJpZ2h0ICkiXSxbMCwxLCJoX3tYXFx0aW1lcyBZfShaXzEpIl0sWzEsMSwiRlxcbGVmdCAoIFpfMSBcXHJpZ2h0ICkiXSxbMCwxLCJcXHZhcnBoaV97Wl8yfSJdLFswLDIsImhfe1hcXHRpbWVzIFl9KGEpIiwyXSxbMSwzLCJGXFxsZWZ0ICggYSBcXHJpZ2h0ICkiXSxbMiwzLCJcXHZhcnBoaV97Wl8xfSIsMl1d&embed" width="397" height="304" style="border-radius: 8px; border: none;"></iframe>
+    </center>
+Cuối cùng, ta thu được $$F$$ và $$h_{X\times Y}$$ đẳng cấu hàm tử, nghĩa là $$F$$ biểu diễn được. $$\square$$ <br>
+
+**2. Tích thớ theo nghĩa phạm trù**<br>
+
+
 
 
 
