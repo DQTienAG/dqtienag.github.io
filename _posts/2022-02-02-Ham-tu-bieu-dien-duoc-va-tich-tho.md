@@ -173,9 +173,10 @@ $$\left ( \Rightarrow  \right )$$ Giả sử tích thớ $$X\times_{Z}Y$$ tồn 
     $$\left ( p_1\circ h,p_2\circ h \right )=G\left ( g \right )\left ( \left ( p_1,p_2 \right ) \right ).$$
     </center>
 Từ sơ đồ sau đây giao hoán
- <!-- https://q.uiver.app/?q=WzAsNCxbMCwwLCJHKFcpIl0sWzEsMCwiaF9XKFcpIl0sWzAsMSwiRyhUKSJdLFsxLDEsImhfVyhUKSJdLFswLDFdLFswLDIsIkcoaCkiLDJdLFsxLDMsImhfVyhoKSJdLFsyLDNdXQ== -->
-<iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMCwwLCJHKFcpIl0sWzEsMCwiaF9XKFcpIl0sWzAsMSwiRyhUKSJdLFsxLDEsImhfVyhUKSJdLFswLDFdLFswLDIsIkcoaCkiLDJdLFsxLDMsImhfVyhoKSJdLFsyLDNdXQ==&embed" width="361" height="304" style="border-radius: 8px; border: none;"></iframe><br>
-    dẫn đến $$h\in h_W\left ( h \right )$$, điều này tương ứng với việc $$\left ( p_1\circ h,p_2\circ h \right )\in G\left ( T \right )$$. Mặt khác, $$h$$ tương ứng với $$\left ( f,g \right )\in G\left ( T \right )$$, nên từ đây ta thu được $$\left ( f,g \right )=\left ( p_1\circ h,p_2\circ h \right )$$, nghĩa là sơ đồ $$(4)$$ giao hoán. Do đó, các tính chất trên là điều kiện cần để tích thớ tồn tại.<br><br>
+<p align="center">
+  <iframe class="quiver-embed" src="https://q.uiver.app/?q=WzAsNCxbMCwwLCJHKFcpIl0sWzEsMCwiaF9XKFcpIl0sWzAsMSwiRyhUKSJdLFsxLDEsImhfVyhUKSJdLFswLDFdLFswLDIsIkcoaCkiLDJdLFsxLDMsImhfVyhoKSJdLFsyLDNdXQ==&embed" width="361" height="304" style="border-radius: 8px; border: none;"></iframe>
+</p>
+dẫn đến $$h\in h_W\left ( h \right )$$, điều này tương ứng với việc $$\left ( p_1\circ h,p_2\circ h \right )\in G\left ( T \right )$$. Mặt khác, $$h$$ tương ứng với $$\left ( f,g \right )\in G\left ( T \right )$$, nên từ đây ta thu được $$\left ( f,g \right )=\left ( p_1\circ h,p_2\circ h \right )$$, nghĩa là sơ đồ $$(4)$$ giao hoán. Do đó, các tính chất trên là điều kiện cần để tích thớ tồn tại.<br><br>
     $$\left ( \Leftarrow  \right )$$ Giả sử tồn tại cặp $$\left ( W,\left ( p_1,p_2 \right ) \right )$$ thỏa mãn các tính chất trên (điều kiện cần). Khi đó, với $$T$$ là một vật trong phạm trù $$\mathcal{C}$$, nghĩa là $$T\in\operatorname{Ob}(\mathcal{C})$$, ta định nghĩa ánh xạ $$\varphi_T$$ giữa các tập hợp như sau
 <center>
     $$\begin{align*}
