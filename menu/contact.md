@@ -45,3 +45,29 @@ permalink: /contact
 * **Loring W. Tu.** Differential Geometry: Connections, Curvature, and Characteristic Classes (Graduate Texts in Mathematics, 275) 1st ed. 2017 Edition.
 * **Loring W. Tu.** An Introduction to Manifolds (Universitext) 2nd ed. 2011 Edition.
 
+---
+layout: page
+title: Một số sách văn học Việt Nam và nước ngoài
+permalink: /contact
+---
+
+Đây là một số sách văn học Việt Nam và nước ngoài mình đã từng đọc, chủ yếu đọc lậu trên mạng :)
+
+### Văn học Việt Nam
+
+* **Ngô Tất Tố.** Việc làng (1941)
+* **Ngô Tất Tố.** Đường thi (1961)
+* **Vũ Trọng Phụng.** Trúng số độc đắc (1938)
+* **Vũ Trọng Phụng.** Làm đĩ (1937)
+
+### Văn học nước ngoài
+
+* **Victor Hugo.** Những ngày cuối cùng của một tử tù (1829)
+* **Victor Hugo.** Những người khốn khổ (1862)
+* **Victor Hugo.** Nhà thờ Đức Bà Paris (1831)
+
+
+
+
+
+
